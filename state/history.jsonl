@@ -44,3 +44,5 @@
 {"ts": "2026-09-18T23:43:53+02:00", "event": "new", "url": "https://sirop.org/app/d687a151-bd2d-43c0-9568-c12fcfe2b3cd", "title": "3D Representations for Scene-Aware Pick and Place", "date": "18.09.2026"}
 {"ts": "2026-09-22T00:37:15+02:00", "event": "removed", "url": "https://sirop.org/app/f31d528c-6bcd-48cc-81df-c5b705854722", "title": "Systematic Fall and Fault Case Evaluation for Legged Robots Characterizing failure modes and adaptive RL policies for quadrupeds, with attention to reduced gravity"}
 {"ts": "2026-09-24T00:21:35+02:00", "event": "removed", "url": "https://sirop.org/app/27cad3d2-8996-4747-b532-243f6915e9c0", "title": "RAI Project - Sim-2-Real"}
+{"ts": "2026-09-29T01:50:42+02:00", "event": "removed", "url": "https://sirop.org/app/a94782a5-3d28-4b98-87da-6f8cd0afd2ab", "title": "Whole-Body Motion Tracking for Wheeled Humanoids with Hexagon Robotics"}
+{"ts": "2026-09-29T01:50:42+02:00", "event": "removed", "url": "https://sirop.org/app/9397a1eb-9fb3-4a10-9797-9c26fb0e76d7", "title": "Perceptive Locomotion for Wheeled Humanoids with Hexagon Robotics"}
