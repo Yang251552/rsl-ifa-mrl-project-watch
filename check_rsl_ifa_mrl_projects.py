@@ -2,16 +2,15 @@
 """Daily check of ETH RSL / IfA / MRL available student projects — GitHub Actions edition.
 
 Fetches the lab's JSON feed (RSL: its page's rssreader feed; IfA, MRL: the SiROP feed their
-student-project pages embed), diffs it against state/seen.json, and writes the
-outcome to state/latest_run.json, which the 07:00 Cowork task reads through
-raw.githubusercontent.com (Cowork itself can't reach rsl.ethz.ch). The snapshot is
-overwritten ONLY on a successful, non-empty fetch, so a network blip or endpoint
-change can't flood the next run with false "new" entries. Every run that gets a feed also
-regenerates summary/new-projects.md, the human-readable list of every detection, from
-state/history.jsonl.
+student-project pages embed), diffs it against state/<lab>/seen.json, and writes the
+outcome to state/<lab>/latest_run.json, which the 07:00 local task reads through
+raw.githubusercontent.com. The snapshot is overwritten ONLY on a successful, non-empty
+fetch, so a network blip or endpoint change can't flood the next run with false "new"
+entries. Every run that gets a feed also regenerates summary/<lab>-new-projects.md, the
+human-readable list of every detection, from state/<lab>/history.jsonl.
 
-    python3 check_rsl_projects.py [ifa|mrl]  # run the check for RSL (default) or that lab
-    python3 check_rsl_projects.py --selftest # run the logic self-check
+    python3 check_rsl_ifa_mrl_projects.py [ifa|mrl]  # run the check for RSL (default) or that lab
+    python3 check_rsl_ifa_mrl_projects.py --selftest # run the logic self-check
 """
 import datetime
 import json
@@ -33,15 +32,14 @@ LABS = {  # lab: (name, feed, page)
 _pos = [a for a in sys.argv[1:] if not a.startswith("-")]
 LAB = _pos[0] if _pos else "rsl"
 if len(_pos) > 1 or LAB not in LABS:
-    sys.exit(f"usage: check_rsl_projects.py [--selftest] [one of {', '.join(LABS)}]")
+    sys.exit(f"usage: check_rsl_ifa_mrl_projects.py [--selftest] [one of {', '.join(LABS)}]")
 NAME, FEED_URL, PAGE_URL = LABS[LAB]
 ROOT = os.path.dirname(os.path.abspath(__file__))
-# RSL keeps its original paths (the Cowork task and README links point at them); other labs nest.
-STATE_DIR = os.path.join(ROOT, "state", *([] if LAB == "rsl" else [LAB]))
+STATE_DIR = os.path.join(ROOT, "state", LAB)
 STATE = os.path.join(STATE_DIR, "seen.json")
 HISTORY = os.path.join(STATE_DIR, "history.jsonl")
 LATEST = os.path.join(STATE_DIR, "latest_run.json")
-SUMMARY = os.path.join(ROOT, "summary", "new-projects.md" if LAB == "rsl" else f"{LAB}-new-projects.md")
+SUMMARY = os.path.join(ROOT, "summary", f"{LAB}-new-projects.md")
 PUSH_HOUR = 7  # local hour the Cowork task reads LATEST; keep in sync with its schedule
 # A detection this close to the read waits for the next day's read: covers job runtime, git push
 # and the raw.githubusercontent.com cache (max-age=300), so a read never misses an item dated today.
@@ -233,7 +231,7 @@ def selftest():
     assert [e["title"] for e in parse(feed, sirop=False)] == ["T x"]  # lone surrogate dropped, duplicate url dropped
     sirop = {"items": [{"url": "s", "title": "S", "publishedSince": "2026-09-24", "abstract": "<p>x</p>"}]}
     assert parse(sirop, sirop=True) == [{"url": "s", "title": "S", "date": "24.09.2026", "desc": "x"}]
-    assert parse({"items": None}, sirop=True) == []  # -> SUSPECT_EMPTY, not a crash
+    assert parse({"items": None}, sirop=True) == []  # -> empty feed, not a crash
     try:
         parse({"items": []}, sirop=False)  # RSL feed turning into an object must stay FETCH_FAILED, not look empty
         assert False
@@ -261,11 +259,13 @@ def main():
         publish(run_at, "FETCH_FAILED", pending, error=str(ex))
         sys.exit(1)
     if not entries:
-        # ponytail: treat an empty feed as suspect (endpoint change / soft failure),
-        # not as "all positions filled" -> leave snapshot untouched.
-        print(f"SUSPECT_EMPTY: feed returned 0 projects; snapshot left unchanged.\nPage: {PAGE_URL}")
-        publish(run_at, "SUSPECT_EMPTY", pending)
-        sys.exit(2)
+        # ponytail: an empty feed is a normal NONE (listed=0, exit 0; small labs do run dry), but the
+        # snapshot stays untouched so a soft failure can't re-report every project as new once it
+        # recovers. Ceiling: projects dropped meanwhile are logged as removed only when the feed lists
+        # something again.
+        print(f"NONE: feed lists 0 projects; snapshot left unchanged.\nPage: {PAGE_URL}")
+        publish(run_at, "NONE", pending, 0)
+        return
     old = load_state()
     new = diff_new(old, entries)
     if new is None:

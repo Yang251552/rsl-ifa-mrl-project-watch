@@ -1,13 +1,13 @@
-name: rsl
+name: rsl-ifa-mrl
 on:
   schedule:
     # GitHub schedules are best-effort: runs #4/#5 started 5.5 h late (see README). Two slots
-    # a day, off the top of the hour: 19:23 UTC (21:23 CEST) lands ~9.6 h before the 07:00 Cowork
+    # a day, off the top of the hour: 19:23 UTC (21:23 CEST) lands ~9.6 h before the 07:00 local
     # read, 03:23 UTC (05:23 CEST) refreshes it when it is on time.
     - cron: "23 3,19 * * *"
   workflow_dispatch:
 # A manual run queues behind an in-progress one instead of racing it to push state/.
-concurrency: rsl-state
+concurrency: rsl-ifa-mrl-state
 permissions:
   contents: write
 jobs:
@@ -17,20 +17,20 @@ jobs:
       TZ: Europe/Zurich
     steps:
       - uses: actions/checkout@v7
-      - run: python3 check_rsl_projects.py
+      - run: python3 check_rsl_ifa_mrl_projects.py
       # One lab's failed fetch must not skip the others; the job still ends red.
       - if: ${{ !cancelled() }}
-        run: python3 check_rsl_projects.py ifa
+        run: python3 check_rsl_ifa_mrl_projects.py ifa
         timeout-minutes: 3
       - if: ${{ !cancelled() }}
-        run: python3 check_rsl_projects.py mrl
+        run: python3 check_rsl_ifa_mrl_projects.py mrl
         timeout-minutes: 3
       - name: Commit state
-        # Publish failed runs too, so Cowork reports the failure instead of stale data.
+        # Publish failed runs too, so the local task reports the failure instead of stale data.
         if: ${{ !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state summary
-          git diff --cached --quiet || git commit -m "rsl: $(jq -r .status state/latest_run.json) · ifa: $(jq -r .status state/ifa/latest_run.json) · mrl: $(jq -r .status state/mrl/latest_run.json)"
+          git diff --cached --quiet || git commit -m "rsl: $(jq -r .status state/rsl/latest_run.json) · ifa: $(jq -r .status state/ifa/latest_run.json) · mrl: $(jq -r .status state/mrl/latest_run.json)"
           git pull --rebase && git push
