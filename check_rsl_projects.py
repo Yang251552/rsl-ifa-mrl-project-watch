@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Daily check of ETH RSL available student projects — GitHub Actions edition.
+"""Daily check of ETH RSL / IfA / MRL available student projects — GitHub Actions edition.
 
-Fetches the page's own JSON feed, diffs it against state/seen.json, and writes the
+Fetches the lab's JSON feed (RSL: its page's rssreader feed; IfA, MRL: the SiROP feed their
+student-project pages embed), diffs it against state/seen.json, and writes the
 outcome to state/latest_run.json, which the 07:00 Cowork task reads through
 raw.githubusercontent.com (Cowork itself can't reach rsl.ethz.ch). The snapshot is
 overwritten ONLY on a successful, non-empty fetch, so a network blip or endpoint
@@ -9,7 +10,7 @@ change can't flood the next run with false "new" entries. Every run that gets a 
 regenerates summary/new-projects.md, the human-readable list of every detection, from
 state/history.jsonl.
 
-    python3 check_rsl_projects.py            # run the check (mutates state/ and summary/)
+    python3 check_rsl_projects.py [ifa|mrl]  # run the check for RSL (default) or that lab
     python3 check_rsl_projects.py --selftest # run the logic self-check
 """
 import datetime
@@ -19,13 +20,28 @@ import re
 import sys
 import urllib.request
 
-FEED_URL = "https://rsl.ethz.ch/education-students/student-projects0/available-projects/_jcr_content/par/rssreader.rssfeed.json"
-PAGE_URL = "https://rsl.ethz.ch/education-students/student-projects0/available-projects.html"
-STATE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state")
+SIROP = "https://feeds.sirop.org/{0[0]}{0[1]}/{0[2]}{0[3]}/{0}/{0}.json"
+LABS = {  # lab: (name, feed, page)
+    "rsl": ("ETH RSL",
+            "https://rsl.ethz.ch/education-students/student-projects0/available-projects/_jcr_content/par/rssreader.rssfeed.json",
+            "https://rsl.ethz.ch/education-students/student-projects0/available-projects.html"),
+    "ifa": ("ETH IfA", SIROP.format("7be87bdc-90cb-4684-b532-655c2edc75c9"),
+            "https://control.ee.ethz.ch/education/sa-ma-projects.html"),
+    "mrl": ("ETH MRL", SIROP.format("c44dcc20-71f4-4260-9718-cd716be33097"),
+            "https://mrl.ethz.ch/education/student-projects.html"),
+}
+_pos = [a for a in sys.argv[1:] if not a.startswith("-")]
+LAB = _pos[0] if _pos else "rsl"
+if len(_pos) > 1 or LAB not in LABS:
+    sys.exit(f"usage: check_rsl_projects.py [--selftest] [one of {', '.join(LABS)}]")
+NAME, FEED_URL, PAGE_URL = LABS[LAB]
+ROOT = os.path.dirname(os.path.abspath(__file__))
+# RSL keeps its original paths (the Cowork task and README links point at them); other labs nest.
+STATE_DIR = os.path.join(ROOT, "state", *([] if LAB == "rsl" else [LAB]))
 STATE = os.path.join(STATE_DIR, "seen.json")
 HISTORY = os.path.join(STATE_DIR, "history.jsonl")
 LATEST = os.path.join(STATE_DIR, "latest_run.json")
-SUMMARY = os.path.join(os.path.dirname(STATE_DIR), "summary", "new-projects.md")
+SUMMARY = os.path.join(ROOT, "summary", "new-projects.md" if LAB == "rsl" else f"{LAB}-new-projects.md")
 PUSH_HOUR = 7  # local hour the Cowork task reads LATEST; keep in sync with its schedule
 # A detection this close to the read waits for the next day's read: covers job runtime, git push
 # and the raw.githubusercontent.com cache (max-age=300), so a read never misses an item dated today.
@@ -52,7 +68,11 @@ def _clean(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", _s(html))).strip()
 
 
-def parse(raw):
+def parse(raw, sirop=LAB != "rsl"):
+    if sirop:  # SiROP feed: {"items": [...]}; map its fields and dates (YYYY-MM-DD) onto RSL's shape
+        raw = [{"url": e.get("url"), "title": e.get("title"), "description": e.get("abstract"),
+                "dateFormatted": ".".join(reversed(_s(e.get("publishedSince")).split("-")))}
+               for e in raw.get("items") or []]
     out = {}
     for e in raw:
         url = _s(e.get("url"))
@@ -141,9 +161,9 @@ def render_summary(lines):
         if (isinstance(ev, dict) and ev.get("event") == "new"
                 and all(isinstance(ev.get(k), str) for k in ("ts", "url", "title"))):
             days.setdefault(ev["ts"][:10], []).append(ev)
-    out = ["# ETH RSL 新增在招项目汇总", "",
+    out = [f"# {NAME} 新增在招项目汇总", "",
            f"共 {sum(map(len, days.values()))} 个，按检出日期（瑞士时间）分组，新的在上。"
-           "每次检查后由 GitHub Actions 从 `state/history.jsonl` 重新生成，请勿手改。", "",
+           f"每次检查后由 GitHub Actions 从 `{os.path.relpath(HISTORY, ROOT)}` 重新生成，请勿手改。", "",
            f"当前在挂列表：{PAGE_URL}", ""]
     for day in sorted(days, reverse=True):
         out += [f"## {day}", ""]
@@ -210,7 +230,15 @@ def selftest():
     assert carry([stale, recent, {"url": "x"}, None], "2026-09-08") == [recent]  # out of window / malformed
     assert carry(None, "2026-09-08") == []
     feed = [{"url": "u", "title": "T\ud83d\n x "}, {"url": "u", "title": "dup"}]
-    assert [e["title"] for e in parse(feed)] == ["T x"]  # lone surrogate dropped, duplicate url dropped
+    assert [e["title"] for e in parse(feed, sirop=False)] == ["T x"]  # lone surrogate dropped, duplicate url dropped
+    sirop = {"items": [{"url": "s", "title": "S", "publishedSince": "2026-09-24", "abstract": "<p>x</p>"}]}
+    assert parse(sirop, sirop=True) == [{"url": "s", "title": "S", "date": "24.09.2026", "desc": "x"}]
+    assert parse({"items": None}, sirop=True) == []  # -> SUSPECT_EMPTY, not a crash
+    try:
+        parse({"items": []}, sirop=False)  # RSL feed turning into an object must stay FETCH_FAILED, not look empty
+        assert False
+    except AttributeError:
+        pass
     hist = ['{"ts": "2026-09-13T06:05:13", "event": "new", "url": "u1", "title": "A [x]"}\n',
             '{"ts": "2026-09-16T00:18:34+02:00", "event": "new", "url": "u2", "title": "B"}\n',
             '{"ts": "2026-09-16T05:23:00+02:00", "event": "removed", "url": "u1", "title": "A [x]"}\n',
@@ -252,8 +280,11 @@ def main():
         publish(run_at, "NEW" if new else "NONE", merge(pending, found), len(entries))
     # History and snapshot only after publishing: if anything above dies, the next run
     # re-detects these projects instead of finding them already marked seen but never published.
-    if old is not None:
-        ts = run_at.isoformat(timespec="seconds")
+    ts = run_at.isoformat(timespec="seconds")
+    if old is None:
+        append_history([{"ts": ts, "event": "baseline", "url": e["url"], "title": e["title"],
+                         "date": e["date"]} for e in entries])
+    else:
         cur = {e["url"] for e in entries}
         append_history(
             [{"ts": ts, "event": "removed", "url": u, "title": t}

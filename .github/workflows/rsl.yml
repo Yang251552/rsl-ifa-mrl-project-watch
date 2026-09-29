@@ -13,11 +13,18 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Zurich
     steps:
       - uses: actions/checkout@v7
       - run: python3 check_rsl_projects.py
-        env:
-          TZ: Europe/Zurich
+      # One lab's failed fetch must not skip the others; the job still ends red.
+      - if: ${{ !cancelled() }}
+        run: python3 check_rsl_projects.py ifa
+        timeout-minutes: 3
+      - if: ${{ !cancelled() }}
+        run: python3 check_rsl_projects.py mrl
+        timeout-minutes: 3
       - name: Commit state
         # Publish failed runs too, so Cowork reports the failure instead of stale data.
         if: ${{ !cancelled() }}
@@ -25,5 +32,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state summary
-          git diff --cached --quiet || git commit -m "rsl: $(jq -r .status state/latest_run.json)"
+          git diff --cached --quiet || git commit -m "rsl: $(jq -r .status state/latest_run.json) · ifa: $(jq -r .status state/ifa/latest_run.json) · mrl: $(jq -r .status state/mrl/latest_run.json)"
           git pull --rebase && git push

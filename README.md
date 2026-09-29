@@ -2,6 +2,16 @@
 
 GitHub Actions 每天抓 [ETH RSL 在招学生项目](https://rsl.ethz.ch/education-students/student-projects0/available-projects.html) 页面自带的 JSON feed，与快照 diff，把结果写进 `state/latest_run.json`，供每天 07:00 的 Cowork 定时任务免鉴权读取（Cowork 云端连不上 rsl.ethz.ch / sirop.org，Actions runner 可以）。
 
+2026-09-29 起同一个 job 依次检查三个实验室，状态互相独立（一个抓取失败不影响另两个）；下文字段与规则对三者都适用，只是路径不同：
+
+| 实验室 | 数据源 | 状态目录 | 新增汇总 |
+|---|---|---|---|
+| RSL（`python3 check_rsl_projects.py`） | [页面](https://rsl.ethz.ch/education-students/student-projects0/available-projects.html) 自带的 rssreader feed | `state/` | `summary/new-projects.md` |
+| IfA（`… ifa`） | [页面](https://control.ee.ethz.ch/education/sa-ma-projects.html) 嵌入的 SiROP feed `7be87bdc…` | `state/ifa/` | `summary/ifa-new-projects.md` |
+| MRL（`… mrl`） | [页面](https://mrl.ethz.ch/education/student-projects.html) 嵌入的 SiROP feed `c44dcc20…` | `state/mrl/` | `summary/mrl-new-projects.md` |
+
+MRL 的 feed 里也有登记在 RSL 名下的联合指导题，所以同一个 url 可能同时出现在 RSL 和 MRL；读取方按 url 去重。首次运行（快照不存在）记为 `BASELINE`，当时在挂的全部以 `baseline` 事件写进 `history.jsonl`，不算新增。
+
 - 定时：`23 3,19 * * *`（UTC）= 瑞士 05:23 与 21:23（夏令时）/ 04:23 与 20:23（冬令时）；Actions 页也可随时手动 Run workflow。GitHub 的 `schedule` 只是尽力而为（无 SLA，高负载时延迟甚至丢弃）：2026-09-14/15 的 03:23 UTC 两次都晚了约 5.5 小时才创建运行，所以加一次前一晚的运行给 07:00 读取兜底；早上那次准点时数据更新鲜。
 - 本地只跑自检 `python3 check_rsl_projects.py --selftest`；直接运行会改 `state/` 和 `summary/`，和远端快照打架。
 - `state/seen.json` 是快照 `{url: title}`；`state/history.jsonl` 是新增/下架流水（2026-09-13 之前的记录来自原 Mac 本地任务）。
