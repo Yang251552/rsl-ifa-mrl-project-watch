@@ -1,7 +1,15 @@
 {
- "run_at": "2026-09-29T09:33:10+02:00",
- "status": "NONE",
- "listed": 11,
- "new": [],
+ "run_at": "2026-09-30T01:01:13+02:00",
+ "status": "NEW",
+ "listed": 12,
+ "new": [
+  {
+   "url": "https://sirop.org/app/ded44a17-6a85-4c46-8d09-9a1faf20bbe8",
+   "title": "Optimal Race-line Generation for High-performance Autonomous Driving",
+   "date": "29.09.2026",
+   "desc": "Autonomous driving is a notoriously challenging and safety-critical application in modern control engineering, requiring real-time decision-making, robust performance under uncertainty, and adherence to stringent safety ",
+   "push_date": "2026-09-30"
+  }
+ ],
  "error": null
 }
