@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T11:53:51+02:00",
+ "updated": "2026-10-03T01:02:26+02:00",
  "seen": {
   "https://sirop.org/app/ded44a17-6a85-4c46-8d09-9a1faf20bbe8": "Optimal Race-line Generation for High-performance Autonomous Driving",
   "https://sirop.org/app/d831acc5-d40a-45fc-af94-a18cb2437ac2": "Borrowing Stability from the Expert: Lyapunov-Guided Policy Learning for Optimal Control",
@@ -10,7 +10,6 @@
   "https://sirop.org/app/86090a05-b947-4e83-93ca-569b8eaf8996": "Decentralized Grid-Equivalent Model Identification",
   "https://sirop.org/app/a7dc0df2-bb86-4ca7-a437-7143c5e7b40d": "Safe and adaptive learning-based MPC: is it even possible?",
   "https://sirop.org/app/476cf9d6-1bc4-4734-8ec1-e9f2aa3e70b4": "Dynamic Performance Certification of Grid-Forming Converters Under Large Grid Disturbances",
-  "https://sirop.org/app/aed95a5d-d285-4d84-af86-c2e01147608e": "Self-consuming Generative Models: a Gaussian Analysis",
   "https://sirop.org/app/a424d09a-e61b-41f4-967b-246b138aff67": "Automatic Calibration Procedure for a 5-Axis Robotic 3D Printer",
   "https://sirop.org/app/1d29dd65-faaa-4de6-a683-bd2290edac12": "Feedback control for the first Swiss local energy markets"
  }
