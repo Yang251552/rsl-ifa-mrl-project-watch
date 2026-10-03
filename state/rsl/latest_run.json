@@ -1,7 +1,22 @@
 {
- "run_at": "2026-10-03T11:16:05+02:00",
- "status": "NONE",
- "listed": 15,
- "new": [],
+ "run_at": "2026-10-04T00:10:52+02:00",
+ "status": "NEW",
+ "listed": 17,
+ "new": [
+  {
+   "url": "https://sirop.org/app/5a444895-0156-410b-9691-c486c2ea1380",
+   "title": "Agentic Mapping",
+   "date": "03.10.2026",
+   "desc": "Build agentic robots that map their own operational worlds!",
+   "push_date": "2026-10-04"
+  },
+  {
+   "url": "https://sirop.org/app/bcfdc55b-485d-4ede-968b-a7515b331d60",
+   "title": "Embodied, Agentic AI",
+   "date": "03.10.2026",
+   "desc": "Come and join a top robotics research institute for your Master thesis!",
+   "push_date": "2026-10-04"
+  }
+ ],
  "error": null
 }

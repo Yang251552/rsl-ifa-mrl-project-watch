@@ -47,3 +47,5 @@
 {"ts": "2026-09-29T01:50:42+02:00", "event": "removed", "url": "https://sirop.org/app/a94782a5-3d28-4b98-87da-6f8cd0afd2ab", "title": "Whole-Body Motion Tracking for Wheeled Humanoids with Hexagon Robotics"}
 {"ts": "2026-09-29T01:50:42+02:00", "event": "removed", "url": "https://sirop.org/app/9397a1eb-9fb3-4a10-9797-9c26fb0e76d7", "title": "Perceptive Locomotion for Wheeled Humanoids with Hexagon Robotics"}
 {"ts": "2026-10-02T01:14:53+02:00", "event": "removed", "url": "https://sirop.org/app/582dd134-5f4f-4f84-a240-ec5fcbd12f51", "title": "Multi-Teacher Distillation"}
+{"ts": "2026-10-04T00:10:52+02:00", "event": "new", "url": "https://sirop.org/app/5a444895-0156-410b-9691-c486c2ea1380", "title": "Agentic Mapping", "date": "03.10.2026"}
+{"ts": "2026-10-04T00:10:52+02:00", "event": "new", "url": "https://sirop.org/app/bcfdc55b-485d-4ede-968b-a7515b331d60", "title": "Embodied, Agentic AI", "date": "03.10.2026"}

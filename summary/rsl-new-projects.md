@@ -1,8 +1,13 @@
 # ETH RSL 新增在招项目汇总
 
-共 23 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
+共 25 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://rsl.ethz.ch/education-students/student-projects0/available-projects.html
+
+## 2026-10-04
+
+- [Agentic Mapping](https://sirop.org/app/5a444895-0156-410b-9691-c486c2ea1380)
+- [Embodied, Agentic AI](https://sirop.org/app/bcfdc55b-485d-4ede-968b-a7515b331d60)
 
 ## 2026-09-18
 
