@@ -1,8 +1,13 @@
 # ETH IfA 新增在招项目汇总
 
-共 12 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 14 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-10-06
+
+- [Understand the Game: Building a Digital Twin for Swissgrid's Voltage Support Program](https://sirop.org/app/afa33a08-f8be-4036-a5a8-ce9818ffb9bf)
+- [Learning Without Breaking: Safe Gradient-Based Tuning of Model Predictive Control](https://sirop.org/app/a13ac08e-5ed9-437e-b25f-ba353e06933b)
 
 ## 2026-09-30
 

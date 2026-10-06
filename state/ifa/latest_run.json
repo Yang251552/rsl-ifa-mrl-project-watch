@@ -1,6 +1,6 @@
 {
- "run_at": "2026-10-05T12:37:31+02:00",
- "status": "NONE",
+ "run_at": "2026-10-06T02:51:55+02:00",
+ "status": "NEW",
  "listed": 11,
  "new": [
   {
@@ -9,6 +9,20 @@
    "date": "29.09.2026",
    "desc": "Autonomous driving is a notoriously challenging and safety-critical application in modern control engineering, requiring real-time decision-making, robust performance under uncertainty, and adherence to stringent safety ",
    "push_date": "2026-09-30"
+  },
+  {
+   "url": "https://sirop.org/app/afa33a08-f8be-4036-a5a8-ce9818ffb9bf",
+   "title": "Understand the Game: Building a Digital Twin for Swissgrid's Voltage Support Program",
+   "date": "05.10.2026",
+   "desc": "Swissgrid keeps transmission grid voltages within limits through a voltage support program, in which power plants and distribution system operators (DSOs) decide autonomously how much reactive power to provide, based on ",
+   "push_date": "2026-10-06"
+  },
+  {
+   "url": "https://sirop.org/app/a13ac08e-5ed9-437e-b25f-ba353e06933b",
+   "title": "Learning Without Breaking: Safe Gradient-Based Tuning of Model Predictive Control",
+   "date": "05.10.2026",
+   "desc": "Model Predictive Control (MPC) excels at handling complex constraints, but its real-world success relies heavily on accurate system models and carefully tuned cost functions. Learning-based MPC addresses this by adapting",
+   "push_date": "2026-10-06"
   }
  ],
  "error": null

@@ -7,3 +7,4 @@
 {"ts": "2026-09-29T09:24:27+02:00", "event": "new", "url": "https://sirop.org/app/9d6e42e6-f075-449f-b490-747f5e91fc67", "title": "Automatic Data Generation for Dexterous Humanoid Loco-Manipulation", "date": "10.09.2026", "backfill": "baseline"}
 {"ts": "2026-09-29T09:24:27+02:00", "event": "new", "url": "https://sirop.org/app/f910e229-e693-406d-a2a7-110ff432a50f", "title": "Versatile, Robust and Simulatable Multi-Robot SLAM", "date": "13.08.2026", "backfill": "baseline"}
 {"ts": "2026-09-29T09:24:27+02:00", "event": "new", "url": "https://sirop.org/app/860e396f-9407-4e0f-adf2-70a3c3dc1805", "title": "LiDAR-Visual-Inertial Odometry with a Unified Representation", "date": "02.07.2026", "backfill": "baseline"}
+{"ts": "2026-10-06T02:51:56+02:00", "event": "removed", "url": "https://sirop.org/app/f1c11826-4c99-42c9-9f33-8c802ede180f", "title": "Skill-Scoped World Models: Behavior-Tree-Structured Imagination for Long-Horizon Manipulation"}

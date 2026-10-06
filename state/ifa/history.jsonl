@@ -11,3 +11,7 @@
 {"ts": "2026-09-29T09:24:26+02:00", "event": "new", "url": "https://sirop.org/app/1d29dd65-faaa-4de6-a683-bd2290edac12", "title": "Feedback control for the first Swiss local energy markets", "date": "17.05.2026", "backfill": "baseline"}
 {"ts": "2026-09-30T01:01:13+02:00", "event": "new", "url": "https://sirop.org/app/ded44a17-6a85-4c46-8d09-9a1faf20bbe8", "title": "Optimal Race-line Generation for High-performance Autonomous Driving", "date": "29.09.2026"}
 {"ts": "2026-10-03T01:02:26+02:00", "event": "removed", "url": "https://sirop.org/app/aed95a5d-d285-4d84-af86-c2e01147608e", "title": "Self-consuming Generative Models: a Gaussian Analysis"}
+{"ts": "2026-10-06T02:51:55+02:00", "event": "removed", "url": "https://sirop.org/app/a7dc0df2-bb86-4ca7-a437-7143c5e7b40d", "title": "Safe and adaptive learning-based MPC: is it even possible?"}
+{"ts": "2026-10-06T02:51:55+02:00", "event": "removed", "url": "https://sirop.org/app/a424d09a-e61b-41f4-967b-246b138aff67", "title": "Automatic Calibration Procedure for a 5-Axis Robotic 3D Printer"}
+{"ts": "2026-10-06T02:51:55+02:00", "event": "new", "url": "https://sirop.org/app/afa33a08-f8be-4036-a5a8-ce9818ffb9bf", "title": "Understand the Game: Building a Digital Twin for Swissgrid's Voltage Support Program", "date": "05.10.2026"}
+{"ts": "2026-10-06T02:51:55+02:00", "event": "new", "url": "https://sirop.org/app/a13ac08e-5ed9-437e-b25f-ba353e06933b", "title": "Learning Without Breaking: Safe Gradient-Based Tuning of Model Predictive Control", "date": "05.10.2026"}
