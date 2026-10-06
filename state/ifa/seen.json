@@ -1,6 +1,7 @@
 {
- "updated": "2026-10-06T12:29:43+02:00",
+ "updated": "2026-10-07T01:06:17+02:00",
  "seen": {
+  "https://sirop.org/app/d4443dde-0d8a-4834-a1c0-928594fc5d40": "Decentralized Damping Guarantees for Converter-Dominated Power Systems",
   "https://sirop.org/app/afa33a08-f8be-4036-a5a8-ce9818ffb9bf": "Understand the Game: Building a Digital Twin for Swissgrid's Voltage Support Program",
   "https://sirop.org/app/a13ac08e-5ed9-437e-b25f-ba353e06933b": "Learning Without Breaking: Safe Gradient-Based Tuning of Model Predictive Control",
   "https://sirop.org/app/ded44a17-6a85-4c46-8d09-9a1faf20bbe8": "Optimal Race-line Generation for High-performance Autonomous Driving",
@@ -10,7 +11,6 @@
   "https://sirop.org/app/4f3b66c8-7aea-49c0-9bb0-b4ecc054695f": "Discover What’s Missing: Mining Environment Assumptions for Robot Manipulation",
   "https://sirop.org/app/6bd76988-06e9-40f7-9e6e-4114ff82017b": "Control Oriented Meta-Learning for HVAC Systems with Embedded Priors",
   "https://sirop.org/app/86090a05-b947-4e83-93ca-569b8eaf8996": "Decentralized Grid-Equivalent Model Identification",
-  "https://sirop.org/app/476cf9d6-1bc4-4734-8ec1-e9f2aa3e70b4": "Dynamic Performance Certification of Grid-Forming Converters Under Large Grid Disturbances",
-  "https://sirop.org/app/1d29dd65-faaa-4de6-a683-bd2290edac12": "Feedback control for the first Swiss local energy markets"
+  "https://sirop.org/app/476cf9d6-1bc4-4734-8ec1-e9f2aa3e70b4": "Dynamic Performance Certification of Grid-Forming Converters Under Large Grid Disturbances"
  }
 }

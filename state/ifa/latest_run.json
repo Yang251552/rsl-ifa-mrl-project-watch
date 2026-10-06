@@ -1,15 +1,8 @@
 {
- "run_at": "2026-10-06T12:29:43+02:00",
- "status": "NONE",
+ "run_at": "2026-10-07T01:06:17+02:00",
+ "status": "NEW",
  "listed": 11,
  "new": [
-  {
-   "url": "https://sirop.org/app/ded44a17-6a85-4c46-8d09-9a1faf20bbe8",
-   "title": "Optimal Race-line Generation for High-performance Autonomous Driving",
-   "date": "29.09.2026",
-   "desc": "Autonomous driving is a notoriously challenging and safety-critical application in modern control engineering, requiring real-time decision-making, robust performance under uncertainty, and adherence to stringent safety ",
-   "push_date": "2026-09-30"
-  },
   {
    "url": "https://sirop.org/app/afa33a08-f8be-4036-a5a8-ce9818ffb9bf",
    "title": "Understand the Game: Building a Digital Twin for Swissgrid's Voltage Support Program",
@@ -23,6 +16,13 @@
    "date": "05.10.2026",
    "desc": "Model Predictive Control (MPC) excels at handling complex constraints, but its real-world success relies heavily on accurate system models and carefully tuned cost functions. Learning-based MPC addresses this by adapting",
    "push_date": "2026-10-06"
+  },
+  {
+   "url": "https://sirop.org/app/d4443dde-0d8a-4834-a1c0-928594fc5d40",
+   "title": "Decentralized Damping Guarantees for Converter-Dominated Power Systems",
+   "date": "06.10.2026",
+   "desc": "This project investigates how local conditions on converters and network lines can guarantee adequate damping of oscillations in power systems. Building on recent semidefinite programming methods for decentralized stabil",
+   "push_date": "2026-10-07"
   }
  ],
  "error": null
