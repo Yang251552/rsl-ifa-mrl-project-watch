@@ -1,8 +1,12 @@
 # ETH MRL 新增在招项目汇总
 
-共 9 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/mrl/history.jsonl` 重新生成，请勿手改。
+共 10 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/mrl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://mrl.ethz.ch/education/student-projects.html
+
+## 2026-10-07
+
+- [Structured Supervision of Vision-Language-Action Policies via Behavior Trees](https://sirop.org/app/b1c878c1-a6dc-4b67-b466-8971b87085a0)
 
 ## 2026-09-29
 
