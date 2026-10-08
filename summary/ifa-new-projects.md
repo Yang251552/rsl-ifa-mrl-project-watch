@@ -1,8 +1,12 @@
 # ETH IfA 新增在招项目汇总
 
-共 15 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 16 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-10-08
+
+- [Probabilistically Safe Motion Planning in Uncertain Dynamic Environments](https://sirop.org/app/1cdaae62-a69f-498b-aa4c-5d237f6ed030)
 
 ## 2026-10-07
 

@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-08T01:36:54+02:00",
- "status": "NONE",
- "listed": 11,
+ "run_at": "2026-10-08T12:43:54+02:00",
+ "status": "NEW",
+ "listed": 12,
  "new": [
   {
    "url": "https://sirop.org/app/afa33a08-f8be-4036-a5a8-ce9818ffb9bf",
@@ -23,6 +23,13 @@
    "date": "06.10.2026",
    "desc": "This project investigates how local conditions on converters and network lines can guarantee adequate damping of oscillations in power systems. Building on recent semidefinite programming methods for decentralized stabil",
    "push_date": "2026-10-07"
+  },
+  {
+   "url": "https://sirop.org/app/1cdaae62-a69f-498b-aa4c-5d237f6ed030",
+   "title": "Probabilistically Safe Motion Planning in Uncertain Dynamic Environments",
+   "date": "08.10.2026",
+   "desc": "Autonomous robots operating in dynamic environments must plan around obstacles with uncertain future trajectories, such as pedestrians or vehicles. Existing motion planning approaches either ignore this uncertainty—riski",
+   "push_date": "2026-10-09"
   }
  ],
  "error": null
