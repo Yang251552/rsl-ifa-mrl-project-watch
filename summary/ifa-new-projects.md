@@ -1,8 +1,12 @@
 # ETH IfA 新增在招项目汇总
 
-共 16 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 17 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-10-09
+
+- [Verifiable Control Design with Data-Driven Spectral Submanifolds](https://sirop.org/app/b705f061-5a07-46dd-84cd-b689c7bc87f4)
 
 ## 2026-10-08
 

@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-09T01:46:45+02:00",
- "status": "NONE",
- "listed": 12,
+ "run_at": "2026-10-09T12:42:56+02:00",
+ "status": "NEW",
+ "listed": 13,
  "new": [
   {
    "url": "https://sirop.org/app/afa33a08-f8be-4036-a5a8-ce9818ffb9bf",
@@ -30,6 +30,13 @@
    "date": "08.10.2026",
    "desc": "Autonomous robots operating in dynamic environments must plan around obstacles with uncertain future trajectories, such as pedestrians or vehicles. Existing motion planning approaches either ignore this uncertainty—riski",
    "push_date": "2026-10-09"
+  },
+  {
+   "url": "https://sirop.org/app/b705f061-5a07-46dd-84cd-b689c7bc87f4",
+   "title": "Verifiable Control Design with Data-Driven Spectral Submanifolds",
+   "date": "09.10.2026",
+   "desc": "Low-dimensional latent space representations of dynamical systems provide a powerful tool for scalable control design. Over the last years, learning-based approaches for constructing latent space representations have gai",
+   "push_date": "2026-10-10"
   }
  ],
  "error": null
