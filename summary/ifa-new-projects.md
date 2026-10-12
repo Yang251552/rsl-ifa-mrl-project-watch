@@ -1,8 +1,12 @@
 # ETH IfA 新增在招项目汇总
 
-共 17 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 18 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-10-12
+
+- [Multi-Agent Reinforcement Learning for RoboCup](https://sirop.org/app/bc1cd337-2165-4568-b380-694a90a3af76)
 
 ## 2026-10-09
 
