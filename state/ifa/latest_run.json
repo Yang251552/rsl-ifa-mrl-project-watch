@@ -1,22 +1,8 @@
 {
- "run_at": "2026-10-12T13:03:11+02:00",
- "status": "NEW",
+ "run_at": "2026-10-13T03:24:35+02:00",
+ "status": "NONE",
  "listed": 14,
  "new": [
-  {
-   "url": "https://sirop.org/app/afa33a08-f8be-4036-a5a8-ce9818ffb9bf",
-   "title": "Understand the Game: Building a Digital Twin for Swissgrid's Voltage Support Program",
-   "date": "05.10.2026",
-   "desc": "Swissgrid keeps transmission grid voltages within limits through a voltage support program, in which power plants and distribution system operators (DSOs) decide autonomously how much reactive power to provide, based on ",
-   "push_date": "2026-10-06"
-  },
-  {
-   "url": "https://sirop.org/app/a13ac08e-5ed9-437e-b25f-ba353e06933b",
-   "title": "Learning Without Breaking: Safe Gradient-Based Tuning of Model Predictive Control",
-   "date": "05.10.2026",
-   "desc": "Model Predictive Control (MPC) excels at handling complex constraints, but its real-world success relies heavily on accurate system models and carefully tuned cost functions. Learning-based MPC addresses this by adapting",
-   "push_date": "2026-10-06"
-  },
   {
    "url": "https://sirop.org/app/d4443dde-0d8a-4834-a1c0-928594fc5d40",
    "title": "Decentralized Damping Guarantees for Converter-Dominated Power Systems",
