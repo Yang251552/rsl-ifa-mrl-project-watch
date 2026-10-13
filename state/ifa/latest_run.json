@@ -1,15 +1,8 @@
 {
- "run_at": "2026-10-13T12:46:09+02:00",
- "status": "NONE",
- "listed": 14,
+ "run_at": "2026-10-14T01:18:43+02:00",
+ "status": "NEW",
+ "listed": 15,
  "new": [
-  {
-   "url": "https://sirop.org/app/d4443dde-0d8a-4834-a1c0-928594fc5d40",
-   "title": "Decentralized Damping Guarantees for Converter-Dominated Power Systems",
-   "date": "06.10.2026",
-   "desc": "This project investigates how local conditions on converters and network lines can guarantee adequate damping of oscillations in power systems. Building on recent semidefinite programming methods for decentralized stabil",
-   "push_date": "2026-10-07"
-  },
   {
    "url": "https://sirop.org/app/1cdaae62-a69f-498b-aa4c-5d237f6ed030",
    "title": "Probabilistically Safe Motion Planning in Uncertain Dynamic Environments",
@@ -30,6 +23,13 @@
    "date": "12.10.2026",
    "desc": "Coordinated positioning is essential for any task carried out by a team of robots. In RoboCup this layer is often hand-designed in every league: the Small Size League champions assign supporter positions through rated ca",
    "push_date": "2026-10-13"
+  },
+  {
+   "url": "https://sirop.org/app/3565e644-2a16-4a8b-8325-52dc596ea2e3",
+   "title": "Benchmarking Traffic Control Algorithms on Urban and Highway Networks",
+   "date": "13.10.2026",
+   "desc": "Traffic congestion in densely populated cities keeps worsening, with large costs for commuters, the environment, and society as a whole. Over the past decades, a wide range of traffic control strategies has been proposed",
+   "push_date": "2026-10-14"
   }
  ],
  "error": null

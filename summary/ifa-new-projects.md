@@ -1,8 +1,12 @@
 # ETH IfA 新增在招项目汇总
 
-共 18 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 19 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-10-14
+
+- [Benchmarking Traffic Control Algorithms on Urban and Highway Networks](https://sirop.org/app/3565e644-2a16-4a8b-8325-52dc596ea2e3)
 
 ## 2026-10-12
 
