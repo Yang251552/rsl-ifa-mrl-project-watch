@@ -1,15 +1,7 @@
 {
- "run_at": "2026-10-14T10:50:29+02:00",
+ "run_at": "2026-10-15T00:21:44+02:00",
  "status": "NONE",
  "listed": 8,
- "new": [
-  {
-   "url": "https://sirop.org/app/b1c878c1-a6dc-4b67-b466-8971b87085a0",
-   "title": "Structured Supervision of Vision-Language-Action Policies via Behavior Trees",
-   "date": "07.10.2026",
-   "desc": "Vision-Language-Action models are starting to grow their own System-1/System-2 split internally — a fast reactive module for low-level control, paired with a slower, value-conditioned module that tracks progress across a",
-   "push_date": "2026-10-08"
-  }
- ],
+ "new": [],
  "error": null
 }
