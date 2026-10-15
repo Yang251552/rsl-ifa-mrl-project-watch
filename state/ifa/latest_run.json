@@ -1,15 +1,8 @@
 {
- "run_at": "2026-10-15T10:25:29+02:00",
+ "run_at": "2026-10-16T00:26:33+02:00",
  "status": "NONE",
  "listed": 15,
  "new": [
-  {
-   "url": "https://sirop.org/app/1cdaae62-a69f-498b-aa4c-5d237f6ed030",
-   "title": "Probabilistically Safe Motion Planning in Uncertain Dynamic Environments",
-   "date": "08.10.2026",
-   "desc": "Autonomous robots operating in dynamic environments must plan around obstacles with uncertain future trajectories, such as pedestrians or vehicles. Existing motion planning approaches either ignore this uncertainty—riski",
-   "push_date": "2026-10-09"
-  },
   {
    "url": "https://sirop.org/app/b705f061-5a07-46dd-84cd-b689c7bc87f4",
    "title": "Verifiable Control Design with Data-Driven Spectral Submanifolds",
