@@ -1,15 +1,8 @@
 {
- "run_at": "2026-10-16T10:18:39+02:00",
+ "run_at": "2026-10-17T00:07:40+02:00",
  "status": "NONE",
  "listed": 15,
  "new": [
-  {
-   "url": "https://sirop.org/app/b705f061-5a07-46dd-84cd-b689c7bc87f4",
-   "title": "Verifiable Control Design with Data-Driven Spectral Submanifolds",
-   "date": "09.10.2026",
-   "desc": "Low-dimensional latent space representations of dynamical systems provide a powerful tool for scalable control design. Over the last years, learning-based approaches for constructing latent space representations have gai",
-   "push_date": "2026-10-10"
-  },
   {
    "url": "https://sirop.org/app/bc1cd337-2165-4568-b380-694a90a3af76",
    "title": "Multi-Agent Reinforcement Learning for RoboCup",
