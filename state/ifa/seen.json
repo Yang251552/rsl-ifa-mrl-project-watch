@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T09:54:17+02:00",
+ "updated": "2026-10-17T23:30:19+02:00",
  "seen": {
   "https://sirop.org/app/3565e644-2a16-4a8b-8325-52dc596ea2e3": "Benchmarking Traffic Control Algorithms on Urban and Highway Networks",
   "https://sirop.org/app/bc1cd337-2165-4568-b380-694a90a3af76": "Multi-Agent Reinforcement Learning for RoboCup",
@@ -14,7 +14,6 @@
   "https://sirop.org/app/a29fcb27-5015-458b-bf8c-58b537cc6b04": "Physics-Informed Multimodal Contact-State Learning for Force-Aware Robotic Manipulation",
   "https://sirop.org/app/4f3b66c8-7aea-49c0-9bb0-b4ecc054695f": "Discover What’s Missing: Mining Environment Assumptions for Robot Manipulation",
   "https://sirop.org/app/6bd76988-06e9-40f7-9e6e-4114ff82017b": "Control Oriented Meta-Learning for HVAC Systems with Embedded Priors",
-  "https://sirop.org/app/86090a05-b947-4e83-93ca-569b8eaf8996": "Decentralized Grid-Equivalent Model Identification",
-  "https://sirop.org/app/476cf9d6-1bc4-4734-8ec1-e9f2aa3e70b4": "Dynamic Performance Certification of Grid-Forming Converters Under Large Grid Disturbances"
+  "https://sirop.org/app/86090a05-b947-4e83-93ca-569b8eaf8996": "Decentralized Grid-Equivalent Model Identification"
  }
 }
