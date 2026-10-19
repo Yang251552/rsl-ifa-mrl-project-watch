@@ -1,8 +1,12 @@
 # ETH RSL 新增在招项目汇总
 
-共 25 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
+共 26 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://rsl.ethz.ch/education-students/student-projects0/available-projects.html
+
+## 2026-10-20
+
+- [Agentic PCB Design: Vibe design the electronic circuits](https://sirop.org/app/52d2b033-7c48-4dc0-aef0-ebf6f5cb0fdc)
 
 ## 2026-10-04
 

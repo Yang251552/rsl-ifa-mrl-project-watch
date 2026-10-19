@@ -1,15 +1,8 @@
 {
- "run_at": "2026-10-19T11:03:55+02:00",
+ "run_at": "2026-10-20T00:55:23+02:00",
  "status": "NONE",
  "listed": 14,
  "new": [
-  {
-   "url": "https://sirop.org/app/bc1cd337-2165-4568-b380-694a90a3af76",
-   "title": "Multi-Agent Reinforcement Learning for RoboCup",
-   "date": "12.10.2026",
-   "desc": "Coordinated positioning is essential for any task carried out by a team of robots. In RoboCup this layer is often hand-designed in every league: the Small Size League champions assign supporter positions through rated ca",
-   "push_date": "2026-10-13"
-  },
   {
    "url": "https://sirop.org/app/3565e644-2a16-4a8b-8325-52dc596ea2e3",
    "title": "Benchmarking Traffic Control Algorithms on Urban and Highway Networks",

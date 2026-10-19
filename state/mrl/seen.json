@@ -1,8 +1,6 @@
 {
- "updated": "2026-10-19T11:03:56+02:00",
+ "updated": "2026-10-20T00:55:24+02:00",
  "seen": {
-  "https://sirop.org/app/b1c878c1-a6dc-4b67-b466-8971b87085a0": "Structured Supervision of Vision-Language-Action Policies via Behavior Trees",
-  "https://sirop.org/app/86e9253f-762e-421c-b6b6-af06d8601826": "BTGym: A Benchmark Gym for Behavior Tree Synthesis Methods across Robot Morphologies",
   "https://sirop.org/app/b95bafab-0323-4706-847d-a2bda6997002": "Obstacle Avoidant Whole Body Pick and Place with Humanoids",
   "https://sirop.org/app/d687a151-bd2d-43c0-9568-c12fcfe2b3cd": "3D Representations for Scene-Aware Pick and Place",
   "https://sirop.org/app/b44a98a0-347c-4003-b3b6-9dd27e754269": "Talking to Maps: LLMs Meet 3D Semantic Maps",

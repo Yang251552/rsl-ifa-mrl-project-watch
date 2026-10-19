@@ -1,7 +1,15 @@
 {
- "run_at": "2026-10-19T11:03:54+02:00",
- "status": "NONE",
- "listed": 16,
- "new": [],
+ "run_at": "2026-10-20T00:55:22+02:00",
+ "status": "NEW",
+ "listed": 17,
+ "new": [
+  {
+   "url": "https://sirop.org/app/52d2b033-7c48-4dc0-aef0-ebf6f5cb0fdc",
+   "title": "Agentic PCB Design: Vibe design the electronic circuits",
+   "date": "19.10.2026",
+   "desc": "This project extends a natural-language-to-PCB framework into an end-to-end design agent that reasons about requirements and engineering constraints. It will explore reinforcement learning for component placement and lay",
+   "push_date": "2026-10-20"
+  }
+ ],
  "error": null
 }
