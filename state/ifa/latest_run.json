@@ -1,15 +1,7 @@
 {
- "run_at": "2026-10-20T10:41:21+02:00",
+ "run_at": "2026-10-21T00:22:45+02:00",
  "status": "NONE",
  "listed": 14,
- "new": [
-  {
-   "url": "https://sirop.org/app/3565e644-2a16-4a8b-8325-52dc596ea2e3",
-   "title": "Benchmarking Traffic Control Algorithms on Urban and Highway Networks",
-   "date": "13.10.2026",
-   "desc": "Traffic congestion in densely populated cities keeps worsening, with large costs for commuters, the environment, and society as a whole. Over the past decades, a wide range of traffic control strategies has been proposed",
-   "push_date": "2026-10-14"
-  }
- ],
+ "new": [],
  "error": null
 }
