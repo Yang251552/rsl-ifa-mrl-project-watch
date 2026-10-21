@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-21T10:42:14+02:00",
- "status": "NONE",
- "listed": 17,
+ "run_at": "2026-10-22T00:26:36+02:00",
+ "status": "NEW",
+ "listed": 18,
  "new": [
   {
    "url": "https://sirop.org/app/52d2b033-7c48-4dc0-aef0-ebf6f5cb0fdc",
@@ -9,6 +9,13 @@
    "date": "19.10.2026",
    "desc": "This project extends a natural-language-to-PCB framework into an end-to-end design agent that reasons about requirements and engineering constraints. It will explore reinforcement learning for component placement and lay",
    "push_date": "2026-10-20"
+  },
+  {
+   "url": "https://sirop.org/app/eacc6aae-6dc0-4fd5-b691-4fa50ed0c556",
+   "title": "Where to Zoom In: Information Frontiers for Functional Scene Understanding",
+   "date": "21.10.2026",
+   "desc": "Develop information-frontier exploration for a quadruped robot equipped with Owl, a pan-tilt-zoom platform. The robot will select promising zoom targets, read text and symbols, and ground these cues in functional 3D scen",
+   "push_date": "2026-10-22"
   }
  ],
  "error": null
