@@ -1,8 +1,12 @@
 # ETH RSL 新增在招项目汇总
 
-共 27 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
+共 28 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://rsl.ethz.ch/education-students/student-projects0/available-projects.html
+
+## 2026-10-23
+
+- [Climbing Ice with Legs: Anchoring Paws for Legged Robots](https://sirop.org/app/2ab0c5df-77a0-4f4b-a2b0-d6fca564c71f)
 
 ## 2026-10-22
 

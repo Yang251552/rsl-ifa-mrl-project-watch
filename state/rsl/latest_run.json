@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-22T10:44:26+02:00",
- "status": "NONE",
- "listed": 18,
+ "run_at": "2026-10-23T00:26:15+02:00",
+ "status": "NEW",
+ "listed": 19,
  "new": [
   {
    "url": "https://sirop.org/app/52d2b033-7c48-4dc0-aef0-ebf6f5cb0fdc",
@@ -16,6 +16,13 @@
    "date": "21.10.2026",
    "desc": "Develop information-frontier exploration for a quadruped robot equipped with Owl, a pan-tilt-zoom platform. The robot will select promising zoom targets, read text and symbols, and ground these cues in functional 3D scen",
    "push_date": "2026-10-22"
+  },
+  {
+   "url": "https://sirop.org/app/2ab0c5df-77a0-4f4b-a2b0-d6fca564c71f",
+   "title": "Climbing Ice with Legs: Anchoring Paws for Legged Robots",
+   "date": "22.10.2026",
+   "desc": "Investigating anchoring methods, such as ice screws and melting hooks, that let a legged robot climb",
+   "push_date": "2026-10-23"
   }
  ],
  "error": null
