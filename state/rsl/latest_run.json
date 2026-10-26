@@ -1,15 +1,8 @@
 {
- "run_at": "2026-10-26T10:06:56+01:00",
+ "run_at": "2026-10-27T00:10:08+01:00",
  "status": "NONE",
  "listed": 19,
  "new": [
-  {
-   "url": "https://sirop.org/app/52d2b033-7c48-4dc0-aef0-ebf6f5cb0fdc",
-   "title": "Agentic PCB Design: Vibe design the electronic circuits",
-   "date": "19.10.2026",
-   "desc": "This project extends a natural-language-to-PCB framework into an end-to-end design agent that reasons about requirements and engineering constraints. It will explore reinforcement learning for component placement and lay",
-   "push_date": "2026-10-20"
-  },
   {
    "url": "https://sirop.org/app/eacc6aae-6dc0-4fd5-b691-4fa50ed0c556",
    "title": "Where to Zoom In: Information Frontiers for Functional Scene Understanding",
