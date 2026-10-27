@@ -1,8 +1,13 @@
 # ETH RSL 新增在招项目汇总
 
-共 28 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
+共 30 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://rsl.ethz.ch/education-students/student-projects0/available-projects.html
+
+## 2026-10-28
+
+- [Learning to Explore In Context: Transformer Navigation from Mazes to Warehouses](https://sirop.org/app/0625c145-aef8-415c-8e62-4227adda7384)
+- [Recursive Self-Improvement in Physical AI](https://sirop.org/app/447c0af0-f155-437b-bfc1-cb8ef4ae1e3a)
 
 ## 2026-10-23
 

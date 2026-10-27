@@ -1,8 +1,12 @@
 # ETH MRL 新增在招项目汇总
 
-共 10 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/mrl/history.jsonl` 重新生成，请勿手改。
+共 11 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/mrl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://mrl.ethz.ch/education/student-projects.html
+
+## 2026-10-28
+
+- [External Thesis: Tactile-Aware Reinforcement Learning for Contact-Rich Manipulation](https://sirop.org/app/5961577a-f47c-40bf-8a31-a38749b62a97)
 
 ## 2026-10-07
 

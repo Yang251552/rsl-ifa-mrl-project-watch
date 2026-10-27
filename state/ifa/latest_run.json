@@ -1,7 +1,15 @@
 {
- "run_at": "2026-10-27T10:08:50+01:00",
- "status": "NONE",
+ "run_at": "2026-10-28T00:00:17+01:00",
+ "status": "NEW",
  "listed": 14,
- "new": [],
+ "new": [
+  {
+   "url": "https://sirop.org/app/72b24682-bdab-41cd-bd69-1b5f222508e2",
+   "title": "Optimal Test-Time Fine-Tuning of LLMs",
+   "date": "27.10.2026",
+   "desc": "This project studies test-time fine-tuning of LLMs using tools from optimal control and optimal experiment design. The student will compare different algorithms, objectives, and data embedding strategies for the fine-tun",
+   "push_date": "2026-10-28"
+  }
+ ],
  "error": null
 }

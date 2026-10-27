@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-27T10:08:49+01:00",
- "status": "NONE",
- "listed": 19,
+ "run_at": "2026-10-28T00:00:16+01:00",
+ "status": "NEW",
+ "listed": 21,
  "new": [
   {
    "url": "https://sirop.org/app/eacc6aae-6dc0-4fd5-b691-4fa50ed0c556",
@@ -16,6 +16,20 @@
    "date": "22.10.2026",
    "desc": "Investigating anchoring methods, such as ice screws and melting hooks, that let a legged robot climb",
    "push_date": "2026-10-23"
+  },
+  {
+   "url": "https://sirop.org/app/0625c145-aef8-415c-8e62-4227adda7384",
+   "title": "Learning to Explore In Context: Transformer Navigation from Mazes to Warehouses",
+   "date": "27.10.2026",
+   "desc": "Imagine dropping a robot into a building it has never seen and asking it to find a marker it can only spot up close. Classical systems solve this with hand-engineered mapping and exploration. In this thesis, you train a ",
+   "push_date": "2026-10-28"
+  },
+  {
+   "url": "https://sirop.org/app/447c0af0-f155-437b-bfc1-cb8ef4ae1e3a",
+   "title": "Recursive Self-Improvement in Physical AI",
+   "date": "27.10.2026",
+   "desc": "What if a robot’s training pipeline could improve itself? Today, getting an RL policy from simulation onto a real robot takes long, manual tuning of rewards and observations by a few experts. In this thesis, you build an",
+   "push_date": "2026-10-28"
   }
  ],
  "error": null

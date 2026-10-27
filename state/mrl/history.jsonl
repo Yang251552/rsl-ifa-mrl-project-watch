@@ -12,3 +12,4 @@
 {"ts": "2026-10-10T01:18:52+02:00", "event": "removed", "url": "https://sirop.org/app/9729230d-aba7-4af6-96c6-be73ca668558", "title": "Combining robot skills into verifiable Behavior Trees"}
 {"ts": "2026-10-20T00:55:24+02:00", "event": "removed", "url": "https://sirop.org/app/b1c878c1-a6dc-4b67-b466-8971b87085a0", "title": "Structured Supervision of Vision-Language-Action Policies via Behavior Trees"}
 {"ts": "2026-10-20T00:55:24+02:00", "event": "removed", "url": "https://sirop.org/app/86e9253f-762e-421c-b6b6-af06d8601826", "title": "BTGym: A Benchmark Gym for Behavior Tree Synthesis Methods across Robot Morphologies"}
+{"ts": "2026-10-28T00:00:18+01:00", "event": "new", "url": "https://sirop.org/app/5961577a-f47c-40bf-8a31-a38749b62a97", "title": "External Thesis: Tactile-Aware Reinforcement Learning for Contact-Rich Manipulation", "date": "27.10.2026"}

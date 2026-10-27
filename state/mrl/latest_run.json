@@ -1,7 +1,15 @@
 {
- "run_at": "2026-10-27T10:08:51+01:00",
- "status": "NONE",
- "listed": 6,
- "new": [],
+ "run_at": "2026-10-28T00:00:18+01:00",
+ "status": "NEW",
+ "listed": 7,
+ "new": [
+  {
+   "url": "https://sirop.org/app/5961577a-f47c-40bf-8a31-a38749b62a97",
+   "title": "External Thesis: Tactile-Aware Reinforcement Learning for Contact-Rich Manipulation",
+   "date": "27.10.2026",
+   "desc": "Tactile sensing is becoming increasingly important for robotic manipulation, particularly in contact-rich tasks where vision and proprioception alone may not provide sufficient information about physical interactions. By",
+   "push_date": "2026-10-28"
+  }
+ ],
  "error": null
 }
