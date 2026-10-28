@@ -1,8 +1,14 @@
 # ETH IfA 新增在招项目汇总
 
-共 20 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 23 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-10-29
+
+- [People's preferences-informed design of large-scale renwable energy systems](https://sirop.org/app/82a9ce79-8028-49ca-8290-651ed8066752)
+- [Strategic co-design of community battery systems for harsh environments](https://sirop.org/app/10239fd9-28b5-4ad2-93d0-ba66e42e42dd)
+- [Integration of robotaxi in Zurich urban mobility](https://sirop.org/app/433fa592-5a29-4037-81ed-3eef3490b8b6)
 
 ## 2026-10-28
 

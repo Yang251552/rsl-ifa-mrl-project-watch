@@ -1,7 +1,7 @@
 {
- "run_at": "2026-10-28T10:49:32+01:00",
- "status": "NONE",
- "listed": 14,
+ "run_at": "2026-10-29T00:18:56+01:00",
+ "status": "NEW",
+ "listed": 17,
  "new": [
   {
    "url": "https://sirop.org/app/72b24682-bdab-41cd-bd69-1b5f222508e2",
@@ -9,6 +9,27 @@
    "date": "27.10.2026",
    "desc": "This project studies test-time fine-tuning of LLMs using tools from optimal control and optimal experiment design. The student will compare different algorithms, objectives, and data embedding strategies for the fine-tun",
    "push_date": "2026-10-28"
+  },
+  {
+   "url": "https://sirop.org/app/82a9ce79-8028-49ca-8290-651ed8066752",
+   "title": "People's preferences-informed design of large-scale renwable energy systems",
+   "date": "25.10.2026",
+   "desc": "Energy 2050 is one of the Swiss strategies to shift towards renewable energies. However, this requires building large-scale plants that often face opposition from local communities. This leads to appeals and delays that ",
+   "push_date": "2026-10-29"
+  },
+  {
+   "url": "https://sirop.org/app/10239fd9-28b5-4ad2-93d0-ba66e42e42dd",
+   "title": "Strategic co-design of community battery systems for harsh environments",
+   "date": "02.10.2026",
+   "desc": "The project is multidisciplinary and will leverage transversal competencies to address the design of community battery systems for areas where the environmental conditions are harsh and failures are more common. The prob",
+   "push_date": "2026-10-29"
+  },
+  {
+   "url": "https://sirop.org/app/433fa592-5a29-4037-81ed-3eef3490b8b6",
+   "title": "Integration of robotaxi in Zurich urban mobility",
+   "date": "03.08.2026",
+   "desc": "Robotaxis will soon be deployed in the city of Zurich. The goal of the research is to model the effect the entrance of an autonomous driving-based service will have on urban mobility and identify integration policies to ",
+   "push_date": "2026-10-29"
   }
  ],
  "error": null

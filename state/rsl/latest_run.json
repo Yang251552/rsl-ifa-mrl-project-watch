@@ -1,15 +1,8 @@
 {
- "run_at": "2026-10-28T10:49:32+01:00",
+ "run_at": "2026-10-29T00:18:29+01:00",
  "status": "NONE",
- "listed": 21,
+ "listed": 20,
  "new": [
-  {
-   "url": "https://sirop.org/app/eacc6aae-6dc0-4fd5-b691-4fa50ed0c556",
-   "title": "Where to Zoom In: Information Frontiers for Functional Scene Understanding",
-   "date": "21.10.2026",
-   "desc": "Develop information-frontier exploration for a quadruped robot equipped with Owl, a pan-tilt-zoom platform. The robot will select promising zoom targets, read text and symbols, and ground these cues in functional 3D scen",
-   "push_date": "2026-10-22"
-  },
   {
    "url": "https://sirop.org/app/2ab0c5df-77a0-4f4b-a2b0-d6fca564c71f",
    "title": "Climbing Ice with Legs: Anchoring Paws for Legged Robots",
