@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T00:18:29+01:00",
+ "updated": "2026-10-29T11:10:08+01:00",
  "seen": {
   "https://sirop.org/app/447c0af0-f155-437b-bfc1-cb8ef4ae1e3a": "Recursive Self-Improvement in Physical AI",
   "https://sirop.org/app/2ab0c5df-77a0-4f4b-a2b0-d6fca564c71f": "Climbing Ice with Legs: Anchoring Paws for Legged Robots",
@@ -15,11 +15,6 @@
   "https://sirop.org/app/d9252090-545c-4973-806b-69f731643c66": "Reinforcement Learning for Controlled Sledding Legged Locomotion on Steep Terrain",
   "https://sirop.org/app/a8894ce2-f1bc-440c-b1d6-e353a485ba6b": "Robotic Characters at Disney Research",
   "https://sirop.org/app/09e4302c-2b09-4174-b0ff-2891e8d8755b": "Dynamics and Learning-Based Control of Parallel Mechanisms for LEO Applications",
-  "https://sirop.org/app/ac5116f8-ad04-4b42-ab9f-d22ee6b0267c": "Procedural environment generation for scalable sim-to-real training",
-  "https://sirop.org/app/1bceb753-08d0-423e-b2aa-0a2095f28c5b": "Soft object reconstruction",
-  "https://sirop.org/app/5b3ad1b0-16e3-424d-a2c3-e9672480dba3": "LLM-based scene graph construction and navigation",
-  "https://sirop.org/app/0a3833a6-0a18-4bbb-9f21-74dc37b01de4": "Learning-based robot state estimation",
-  "https://sirop.org/app/925b4ced-006c-4124-8c35-a7791bf6bda8": "Change-aware HD map-based planning and reasoning",
   "https://sirop.org/app/3d153a31-21c4-473c-a62e-ff7a8a6ec2e3": "Towards ubiquitous intelligent humanoid systems"
  }
 }
