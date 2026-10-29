@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T11:10:09+01:00",
+ "updated": "2026-10-30T00:22:18+01:00",
  "seen": {
   "https://sirop.org/app/72b24682-bdab-41cd-bd69-1b5f222508e2": "Optimal Test-Time Fine-Tuning of LLMs",
   "https://sirop.org/app/82a9ce79-8028-49ca-8290-651ed8066752": "People's preferences-informed design of large-scale renwable energy systems",
@@ -11,7 +11,6 @@
   "https://sirop.org/app/afa33a08-f8be-4036-a5a8-ce9818ffb9bf": "Understand the Game: Building a Digital Twin for Swissgrid's Voltage Support Program",
   "https://sirop.org/app/10239fd9-28b5-4ad2-93d0-ba66e42e42dd": "Strategic co-design of community battery systems for harsh environments",
   "https://sirop.org/app/ded44a17-6a85-4c46-8d09-9a1faf20bbe8": "Optimal Race-line Generation for High-performance Autonomous Driving",
-  "https://sirop.org/app/d831acc5-d40a-45fc-af94-a18cb2437ac2": "Borrowing Stability from the Expert: Lyapunov-Guided Policy Learning for Optimal Control",
   "https://sirop.org/app/3fa3ec70-2fad-46c4-826c-8f7ec1ed7824": "Development of a Point Cloud Encoder for Force-Aware Manipulation Policy Learning",
   "https://sirop.org/app/a29fcb27-5015-458b-bf8c-58b537cc6b04": "Physics-Informed Multimodal Contact-State Learning for Force-Aware Robotic Manipulation",
   "https://sirop.org/app/4f3b66c8-7aea-49c0-9bb0-b4ecc054695f": "Discover What’s Missing: Mining Environment Assumptions for Robot Manipulation",

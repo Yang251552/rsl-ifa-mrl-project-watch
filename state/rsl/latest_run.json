@@ -1,15 +1,8 @@
 {
- "run_at": "2026-10-29T11:10:08+01:00",
+ "run_at": "2026-10-30T00:22:17+01:00",
  "status": "NONE",
  "listed": 15,
  "new": [
-  {
-   "url": "https://sirop.org/app/2ab0c5df-77a0-4f4b-a2b0-d6fca564c71f",
-   "title": "Climbing Ice with Legs: Anchoring Paws for Legged Robots",
-   "date": "22.10.2026",
-   "desc": "Investigating anchoring methods, such as ice screws and melting hooks, that let a legged robot climb",
-   "push_date": "2026-10-23"
-  },
   {
    "url": "https://sirop.org/app/0625c145-aef8-415c-8e62-4227adda7384",
    "title": "Learning to Explore In Context: Transformer Navigation from Mazes to Warehouses",

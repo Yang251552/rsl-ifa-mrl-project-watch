@@ -27,3 +27,4 @@
 {"ts": "2026-10-29T00:18:56+01:00", "event": "new", "url": "https://sirop.org/app/82a9ce79-8028-49ca-8290-651ed8066752", "title": "People's preferences-informed design of large-scale renwable energy systems", "date": "25.10.2026"}
 {"ts": "2026-10-29T00:18:56+01:00", "event": "new", "url": "https://sirop.org/app/10239fd9-28b5-4ad2-93d0-ba66e42e42dd", "title": "Strategic co-design of community battery systems for harsh environments", "date": "02.10.2026"}
 {"ts": "2026-10-29T00:18:56+01:00", "event": "new", "url": "https://sirop.org/app/433fa592-5a29-4037-81ed-3eef3490b8b6", "title": "Integration of robotaxi in Zurich urban mobility", "date": "03.08.2026"}
+{"ts": "2026-10-30T00:22:18+01:00", "event": "removed", "url": "https://sirop.org/app/d831acc5-d40a-45fc-af94-a18cb2437ac2", "title": "Borrowing Stability from the Expert: Lyapunov-Guided Policy Learning for Optimal Control"}
