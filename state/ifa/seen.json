@@ -1,6 +1,7 @@
 {
- "updated": "2026-11-01T23:53:57+01:00",
+ "updated": "2026-11-02T12:25:04+01:00",
  "seen": {
+  "https://sirop.org/app/433fa592-5a29-4037-81ed-3eef3490b8b6": "Integration of robotaxi in Zurich urban mobility",
   "https://sirop.org/app/72b24682-bdab-41cd-bd69-1b5f222508e2": "Optimal Test-Time Fine-Tuning of LLMs",
   "https://sirop.org/app/82a9ce79-8028-49ca-8290-651ed8066752": "People's preferences-informed design of large-scale renwable energy systems",
   "https://sirop.org/app/3565e644-2a16-4a8b-8325-52dc596ea2e3": "Benchmarking Traffic Control Algorithms on Urban and Highway Networks",
@@ -15,7 +16,6 @@
   "https://sirop.org/app/a29fcb27-5015-458b-bf8c-58b537cc6b04": "Physics-Informed Multimodal Contact-State Learning for Force-Aware Robotic Manipulation",
   "https://sirop.org/app/4f3b66c8-7aea-49c0-9bb0-b4ecc054695f": "Discover What’s Missing: Mining Environment Assumptions for Robot Manipulation",
   "https://sirop.org/app/6bd76988-06e9-40f7-9e6e-4114ff82017b": "Control Oriented Meta-Learning for HVAC Systems with Embedded Priors",
-  "https://sirop.org/app/86090a05-b947-4e83-93ca-569b8eaf8996": "Decentralized Grid-Equivalent Model Identification",
-  "https://sirop.org/app/433fa592-5a29-4037-81ed-3eef3490b8b6": "Integration of robotaxi in Zurich urban mobility"
+  "https://sirop.org/app/86090a05-b947-4e83-93ca-569b8eaf8996": "Decentralized Grid-Equivalent Model Identification"
  }
 }
