@@ -61,3 +61,7 @@
 {"ts": "2026-10-29T11:10:08+01:00", "event": "removed", "url": "https://sirop.org/app/5b3ad1b0-16e3-424d-a2c3-e9672480dba3", "title": "LLM-based scene graph construction and navigation"}
 {"ts": "2026-10-29T11:10:08+01:00", "event": "removed", "url": "https://sirop.org/app/0a3833a6-0a18-4bbb-9f21-74dc37b01de4", "title": "Learning-based robot state estimation"}
 {"ts": "2026-10-29T11:10:08+01:00", "event": "removed", "url": "https://sirop.org/app/925b4ced-006c-4124-8c35-a7791bf6bda8", "title": "Change-aware HD map-based planning and reasoning"}
+{"ts": "2026-11-03T02:39:36+01:00", "event": "removed", "url": "https://sirop.org/app/447c0af0-f155-437b-bfc1-cb8ef4ae1e3a", "title": "Recursive Self-Improvement in Physical AI"}
+{"ts": "2026-11-03T02:39:36+01:00", "event": "removed", "url": "https://sirop.org/app/b95bafab-0323-4706-847d-a2bda6997002", "title": "Obstacle Avoidant Whole Body Pick and Place with Humanoids"}
+{"ts": "2026-11-03T02:39:36+01:00", "event": "removed", "url": "https://sirop.org/app/d687a151-bd2d-43c0-9568-c12fcfe2b3cd", "title": "3D Representations for Scene-Aware Pick and Place"}
+{"ts": "2026-11-03T02:39:36+01:00", "event": "removed", "url": "https://sirop.org/app/4a26ef23-138c-40f6-82c3-da6b9f06a438", "title": "Online Semantic Gaussian Splatting and RL for Mobile Robots"}
