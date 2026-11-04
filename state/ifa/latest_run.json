@@ -1,15 +1,8 @@
 {
- "run_at": "2026-11-03T12:01:24+01:00",
+ "run_at": "2026-11-04T01:00:18+01:00",
  "status": "NONE",
  "listed": 15,
  "new": [
-  {
-   "url": "https://sirop.org/app/72b24682-bdab-41cd-bd69-1b5f222508e2",
-   "title": "Optimal Test-Time Fine-Tuning of LLMs",
-   "date": "27.10.2026",
-   "desc": "This project studies test-time fine-tuning of LLMs using tools from optimal control and optimal experiment design. The student will compare different algorithms, objectives, and data embedding strategies for the fine-tun",
-   "push_date": "2026-10-28"
-  },
   {
    "url": "https://sirop.org/app/82a9ce79-8028-49ca-8290-651ed8066752",
    "title": "People's preferences-informed design of large-scale renwable energy systems",
