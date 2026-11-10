@@ -1,7 +1,15 @@
 {
- "run_at": "2026-11-09T12:47:55+01:00",
- "status": "NONE",
- "listed": 10,
- "new": [],
+ "run_at": "2026-11-10T03:15:05+01:00",
+ "status": "NEW",
+ "listed": 11,
+ "new": [
+  {
+   "url": "https://sirop.org/app/ad276101-ff5c-4de0-a35f-43bee98dfb03",
+   "title": "Eyes on the Ball: Active Perception for Humanoid Catching on the Move",
+   "date": "09.11.2026",
+   "desc": "Teach a G1 humanoid to track and catch a moving ball using Owl Mini, an active stereo RGB-D head. Combine gaze control, trajectory prediction and reinforcement learning to coordinate perception, stepping and catching on ",
+   "push_date": "2026-11-10"
+  }
+ ],
  "error": null
 }

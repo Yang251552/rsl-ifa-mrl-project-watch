@@ -1,8 +1,12 @@
 # ETH RSL 新增在招项目汇总
 
-共 30 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
+共 31 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://rsl.ethz.ch/education-students/student-projects0/available-projects.html
+
+## 2026-11-10
+
+- [Eyes on the Ball: Active Perception for Humanoid Catching on the Move](https://sirop.org/app/ad276101-ff5c-4de0-a35f-43bee98dfb03)
 
 ## 2026-10-28
 

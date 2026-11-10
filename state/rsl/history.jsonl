@@ -66,3 +66,4 @@
 {"ts": "2026-11-03T02:39:36+01:00", "event": "removed", "url": "https://sirop.org/app/d687a151-bd2d-43c0-9568-c12fcfe2b3cd", "title": "3D Representations for Scene-Aware Pick and Place"}
 {"ts": "2026-11-03T02:39:36+01:00", "event": "removed", "url": "https://sirop.org/app/4a26ef23-138c-40f6-82c3-da6b9f06a438", "title": "Online Semantic Gaussian Splatting and RL for Mobile Robots"}
 {"ts": "2026-11-08T23:56:36+01:00", "event": "removed", "url": "https://sirop.org/app/2ab0c5df-77a0-4f4b-a2b0-d6fca564c71f", "title": "Climbing Ice with Legs: Anchoring Paws for Legged Robots"}
+{"ts": "2026-11-10T03:15:05+01:00", "event": "new", "url": "https://sirop.org/app/ad276101-ff5c-4de0-a35f-43bee98dfb03", "title": "Eyes on the Ball: Active Perception for Humanoid Catching on the Move", "date": "09.11.2026"}
