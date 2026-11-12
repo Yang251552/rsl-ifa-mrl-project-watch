@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-12T02:34:07+01:00",
+ "run_at": "2026-11-12T12:28:11+01:00",
  "status": "NEW",
- "listed": 15,
+ "listed": 16,
  "new": [
   {
    "url": "https://sirop.org/app/9d1a7eef-a58b-45b8-a4f7-c272114ebc1b",
@@ -9,6 +9,13 @@
    "date": "11.11.2026",
    "desc": "Groundwater is being pumped faster than it is replenished in many regions, causing low river flows, ecosystem damage, and land subsidence. Traditional management restricts or taxes pumping and must be revised whenever co",
    "push_date": "2026-11-12"
+  },
+  {
+   "url": "https://sirop.org/app/69c69a9a-bf85-4f4a-a809-b721ee700769",
+   "title": "Cooperative Multi-Agent Reinforcement Learning for Heterogeneous Drone Fleets",
+   "date": "12.11.2026",
+   "desc": "Drone fleets are increasingly being deployed for commercial package delivery, with real-world applications involving heterogeneous teams of drones that differ in their dynamics and payload capacities. Multi-agent reinfor",
+   "push_date": "2026-11-13"
   }
  ],
  "error": null

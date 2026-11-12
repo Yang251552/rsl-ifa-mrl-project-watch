@@ -1,12 +1,13 @@
 # ETH IfA 新增在招项目汇总
 
-共 24 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 25 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
 
 ## 2026-11-12
 
 - [Functional Incentives for Sustainable Groundwater Management](https://sirop.org/app/9d1a7eef-a58b-45b8-a4f7-c272114ebc1b)
+- [Cooperative Multi-Agent Reinforcement Learning for Heterogeneous Drone Fleets](https://sirop.org/app/69c69a9a-bf85-4f4a-a809-b721ee700769)
 
 ## 2026-10-29
 
