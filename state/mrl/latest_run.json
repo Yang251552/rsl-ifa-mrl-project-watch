@@ -1,7 +1,15 @@
 {
- "run_at": "2026-11-11T12:10:33+01:00",
- "status": "NONE",
- "listed": 5,
- "new": [],
+ "run_at": "2026-11-12T02:34:08+01:00",
+ "status": "NEW",
+ "listed": 6,
+ "new": [
+  {
+   "url": "https://sirop.org/app/31fbfcc2-9f46-4cd1-99dd-b1343a6664e0",
+   "title": "Retargeting-free Humanoid Motion Tracking",
+   "date": "11.11.2026",
+   "desc": "Current humanoid motion policy learning frameworks rely heavily on kinematic retargeting to adapt human motion capture data to a robot's distinct embodiment. However, this retargeting step typically requires computationa",
+   "push_date": "2026-11-12"
+  }
+ ],
  "error": null
 }

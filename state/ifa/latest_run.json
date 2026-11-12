@@ -1,7 +1,15 @@
 {
- "run_at": "2026-11-11T12:10:33+01:00",
- "status": "NONE",
- "listed": 14,
- "new": [],
+ "run_at": "2026-11-12T02:34:07+01:00",
+ "status": "NEW",
+ "listed": 15,
+ "new": [
+  {
+   "url": "https://sirop.org/app/9d1a7eef-a58b-45b8-a4f7-c272114ebc1b",
+   "title": "Functional Incentives for Sustainable Groundwater Management",
+   "date": "11.11.2026",
+   "desc": "Groundwater is being pumped faster than it is replenished in many regions, causing low river flows, ecosystem damage, and land subsidence. Traditional management restricts or taxes pumping and must be revised whenever co",
+   "push_date": "2026-11-12"
+  }
+ ],
  "error": null
 }

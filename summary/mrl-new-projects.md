@@ -1,8 +1,12 @@
 # ETH MRL 新增在招项目汇总
 
-共 11 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/mrl/history.jsonl` 重新生成，请勿手改。
+共 12 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/mrl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://mrl.ethz.ch/education/student-projects.html
+
+## 2026-11-12
+
+- [Retargeting-free Humanoid Motion Tracking](https://sirop.org/app/31fbfcc2-9f46-4cd1-99dd-b1343a6664e0)
 
 ## 2026-10-28
 
