@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-13T12:12:40+01:00",
- "status": "NONE",
- "listed": 16,
+ "run_at": "2026-11-14T01:22:04+01:00",
+ "status": "NEW",
+ "listed": 17,
  "new": [
   {
    "url": "https://sirop.org/app/9d1a7eef-a58b-45b8-a4f7-c272114ebc1b",
@@ -16,6 +16,13 @@
    "date": "12.11.2026",
    "desc": "Drone fleets are increasingly being deployed for commercial package delivery, with real-world applications involving heterogeneous teams of drones that differ in their dynamics and payload capacities. Multi-agent reinfor",
    "push_date": "2026-11-13"
+  },
+  {
+   "url": "https://sirop.org/app/50e25988-7b8f-475b-af9b-388339fda030",
+   "title": "Functional Incentives for Frequency Reserves: Self-Selection, Attribution, and Strategic Interaction",
+   "date": "13.11.2026",
+   "desc": "Frequency reserves are procured through markets that require firm capacity commitments, which keeps assets with uncertain availability, such as wind, solar and flexible demand, on the sidelines. Functional incentives off",
+   "push_date": "2026-11-14"
   }
  ],
  "error": null
