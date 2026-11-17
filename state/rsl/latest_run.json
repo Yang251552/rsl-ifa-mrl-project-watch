@@ -1,7 +1,15 @@
 {
- "run_at": "2026-11-17T03:29:40+01:00",
- "status": "NONE",
- "listed": 10,
- "new": [],
+ "run_at": "2026-11-17T13:03:29+01:00",
+ "status": "NEW",
+ "listed": 11,
+ "new": [
+  {
+   "url": "https://sirop.org/app/8b444cd7-447d-4db4-8a12-45ce6be0d4b3",
+   "title": "Hardware development, testing, and integration engineer",
+   "date": "17.11.2026",
+   "desc": "We are looking for HiWi to support the development of a flight-intent quadruped robot for lunar surface mobility. Upcoming phases focus on building and iterating full-scale prototypes, advancing key subsystems, and integ",
+   "push_date": "2026-11-18"
+  }
+ ],
  "error": null
 }

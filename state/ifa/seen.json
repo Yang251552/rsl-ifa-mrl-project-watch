@@ -1,6 +1,7 @@
 {
- "updated": "2026-11-17T03:29:41+01:00",
+ "updated": "2026-11-17T13:03:29+01:00",
  "seen": {
+  "https://sirop.org/app/79cee45c-268f-451a-bfc6-2fc0eebc066b": "Control-based Design of Robust Constrained Optimization Algorithms via Sliding Mode Control",
   "https://sirop.org/app/50e25988-7b8f-475b-af9b-388339fda030": "Functional Incentives for Frequency Reserves: Self-Selection, Attribution, and Strategic Interaction",
   "https://sirop.org/app/69c69a9a-bf85-4f4a-a809-b721ee700769": "Cooperative Multi-Agent Reinforcement Learning for Heterogeneous Drone Fleets",
   "https://sirop.org/app/9d1a7eef-a58b-45b8-a4f7-c272114ebc1b": "Functional Incentives for Sustainable Groundwater Management",
@@ -9,7 +10,6 @@
   "https://sirop.org/app/72b24682-bdab-41cd-bd69-1b5f222508e2": "Optimal Test-Time Fine-Tuning of LLMs",
   "https://sirop.org/app/82a9ce79-8028-49ca-8290-651ed8066752": "People's preferences-informed design of large-scale renwable energy systems",
   "https://sirop.org/app/3565e644-2a16-4a8b-8325-52dc596ea2e3": "Benchmarking Traffic Control Algorithms on Urban and Highway Networks",
-  "https://sirop.org/app/bc1cd337-2165-4568-b380-694a90a3af76": "Multi-Agent Reinforcement Learning for RoboCup",
   "https://sirop.org/app/b705f061-5a07-46dd-84cd-b689c7bc87f4": "Verifiable Control Design with Data-Driven Spectral Submanifolds",
   "https://sirop.org/app/1cdaae62-a69f-498b-aa4c-5d237f6ed030": "Probabilistically Safe Motion Planning in Uncertain Dynamic Environments",
   "https://sirop.org/app/d4443dde-0d8a-4834-a1c0-928594fc5d40": "Decentralized Damping Guarantees for Converter-Dominated Power Systems",

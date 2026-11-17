@@ -1,6 +1,6 @@
 {
- "run_at": "2026-11-17T03:29:41+01:00",
- "status": "NONE",
+ "run_at": "2026-11-17T13:03:29+01:00",
+ "status": "NEW",
  "listed": 17,
  "new": [
   {
@@ -23,6 +23,13 @@
    "date": "13.11.2026",
    "desc": "Frequency reserves are procured through markets that require firm capacity commitments, which keeps assets with uncertain availability, such as wind, solar and flexible demand, on the sidelines. Functional incentives off",
    "push_date": "2026-11-14"
+  },
+  {
+   "url": "https://sirop.org/app/79cee45c-268f-451a-bfc6-2fc0eebc066b",
+   "title": "Control-based Design of Robust Constrained Optimization Algorithms via Sliding Mode Control",
+   "date": "17.11.2026",
+   "desc": "Sliding mode control (SMC) is built to reject uncertainty, but does this robustness carry over to optimization solvers designed via SMC? This project investigates this question building on a recent line of work that cast",
+   "push_date": "2026-11-18"
   }
  ],
  "error": null

@@ -33,3 +33,5 @@
 {"ts": "2026-11-12T02:34:07+01:00", "event": "new", "url": "https://sirop.org/app/9d1a7eef-a58b-45b8-a4f7-c272114ebc1b", "title": "Functional Incentives for Sustainable Groundwater Management", "date": "11.11.2026"}
 {"ts": "2026-11-12T12:28:11+01:00", "event": "new", "url": "https://sirop.org/app/69c69a9a-bf85-4f4a-a809-b721ee700769", "title": "Cooperative Multi-Agent Reinforcement Learning for Heterogeneous Drone Fleets", "date": "12.11.2026"}
 {"ts": "2026-11-14T01:22:04+01:00", "event": "new", "url": "https://sirop.org/app/50e25988-7b8f-475b-af9b-388339fda030", "title": "Functional Incentives for Frequency Reserves: Self-Selection, Attribution, and Strategic Interaction", "date": "13.11.2026"}
+{"ts": "2026-11-17T13:03:29+01:00", "event": "removed", "url": "https://sirop.org/app/bc1cd337-2165-4568-b380-694a90a3af76", "title": "Multi-Agent Reinforcement Learning for RoboCup"}
+{"ts": "2026-11-17T13:03:29+01:00", "event": "new", "url": "https://sirop.org/app/79cee45c-268f-451a-bfc6-2fc0eebc066b", "title": "Control-based Design of Robust Constrained Optimization Algorithms via Sliding Mode Control", "date": "17.11.2026"}

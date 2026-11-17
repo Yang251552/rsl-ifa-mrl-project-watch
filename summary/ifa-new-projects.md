@@ -1,8 +1,12 @@
 # ETH IfA 新增在招项目汇总
 
-共 26 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 27 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-11-17
+
+- [Control-based Design of Robust Constrained Optimization Algorithms via Sliding Mode Control](https://sirop.org/app/79cee45c-268f-451a-bfc6-2fc0eebc066b)
 
 ## 2026-11-14
 
