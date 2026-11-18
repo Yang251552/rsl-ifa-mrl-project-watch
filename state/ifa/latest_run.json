@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-17T13:03:29+01:00",
+ "run_at": "2026-11-18T02:39:51+01:00",
  "status": "NEW",
- "listed": 17,
+ "listed": 18,
  "new": [
   {
    "url": "https://sirop.org/app/9d1a7eef-a58b-45b8-a4f7-c272114ebc1b",
@@ -29,6 +29,13 @@
    "title": "Control-based Design of Robust Constrained Optimization Algorithms via Sliding Mode Control",
    "date": "17.11.2026",
    "desc": "Sliding mode control (SMC) is built to reject uncertainty, but does this robustness carry over to optimization solvers designed via SMC? This project investigates this question building on a recent line of work that cast",
+   "push_date": "2026-11-18"
+  },
+  {
+   "url": "https://sirop.org/app/c340194c-bcba-4585-be8d-b00ddb35ee86",
+   "title": "Control Oriented Meta-Learning with Embedded Priors.",
+   "date": "17.11.2026",
+   "desc": "Deploying machine learning algorithms on real physical systems has motivated growing interest in physics-informed architectures, in which the structure of the learning algorithm is constrained to encode the physical laws",
    "push_date": "2026-11-18"
   }
  ],

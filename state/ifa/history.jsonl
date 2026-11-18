@@ -35,3 +35,4 @@
 {"ts": "2026-11-14T01:22:04+01:00", "event": "new", "url": "https://sirop.org/app/50e25988-7b8f-475b-af9b-388339fda030", "title": "Functional Incentives for Frequency Reserves: Self-Selection, Attribution, and Strategic Interaction", "date": "13.11.2026"}
 {"ts": "2026-11-17T13:03:29+01:00", "event": "removed", "url": "https://sirop.org/app/bc1cd337-2165-4568-b380-694a90a3af76", "title": "Multi-Agent Reinforcement Learning for RoboCup"}
 {"ts": "2026-11-17T13:03:29+01:00", "event": "new", "url": "https://sirop.org/app/79cee45c-268f-451a-bfc6-2fc0eebc066b", "title": "Control-based Design of Robust Constrained Optimization Algorithms via Sliding Mode Control", "date": "17.11.2026"}
+{"ts": "2026-11-18T02:39:51+01:00", "event": "new", "url": "https://sirop.org/app/c340194c-bcba-4585-be8d-b00ddb35ee86", "title": "Control Oriented Meta-Learning with Embedded Priors.", "date": "17.11.2026"}
