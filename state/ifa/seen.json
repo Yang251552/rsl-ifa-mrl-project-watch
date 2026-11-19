@@ -1,6 +1,7 @@
 {
- "updated": "2026-11-18T12:54:43+01:00",
+ "updated": "2026-11-19T02:16:12+01:00",
  "seen": {
+  "https://sirop.org/app/d7346783-0a5b-4c0e-b0e9-32798fb60c73": "Signal Temporal Logic for Environmental Flow Requirements at Reservoirs",
   "https://sirop.org/app/c340194c-bcba-4585-be8d-b00ddb35ee86": "Control Oriented Meta-Learning with Embedded Priors.",
   "https://sirop.org/app/79cee45c-268f-451a-bfc6-2fc0eebc066b": "Control-based Design of Robust Constrained Optimization Algorithms via Sliding Mode Control",
   "https://sirop.org/app/50e25988-7b8f-475b-af9b-388339fda030": "Functional Incentives for Frequency Reserves: Self-Selection, Attribution, and Strategic Interaction",
@@ -17,7 +18,6 @@
   "https://sirop.org/app/afa33a08-f8be-4036-a5a8-ce9818ffb9bf": "Understand the Game: Building a Digital Twin for Swissgrid's Voltage Support Program",
   "https://sirop.org/app/3fa3ec70-2fad-46c4-826c-8f7ec1ed7824": "Development of a Point Cloud Encoder for Force-Aware Manipulation Policy Learning",
   "https://sirop.org/app/a29fcb27-5015-458b-bf8c-58b537cc6b04": "Physics-Informed Multimodal Contact-State Learning for Force-Aware Robotic Manipulation",
-  "https://sirop.org/app/4f3b66c8-7aea-49c0-9bb0-b4ecc054695f": "Discover What’s Missing: Mining Environment Assumptions for Robot Manipulation",
   "https://sirop.org/app/86090a05-b947-4e83-93ca-569b8eaf8996": "Decentralized Grid-Equivalent Model Identification"
  }
 }

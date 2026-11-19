@@ -1,15 +1,8 @@
 {
- "run_at": "2026-11-18T12:54:43+01:00",
- "status": "NONE",
+ "run_at": "2026-11-19T02:16:12+01:00",
+ "status": "NEW",
  "listed": 18,
  "new": [
-  {
-   "url": "https://sirop.org/app/9d1a7eef-a58b-45b8-a4f7-c272114ebc1b",
-   "title": "Functional Incentives for Sustainable Groundwater Management",
-   "date": "11.11.2026",
-   "desc": "Groundwater is being pumped faster than it is replenished in many regions, causing low river flows, ecosystem damage, and land subsidence. Traditional management restricts or taxes pumping and must be revised whenever co",
-   "push_date": "2026-11-12"
-  },
   {
    "url": "https://sirop.org/app/69c69a9a-bf85-4f4a-a809-b721ee700769",
    "title": "Cooperative Multi-Agent Reinforcement Learning for Heterogeneous Drone Fleets",
@@ -37,6 +30,13 @@
    "date": "17.11.2026",
    "desc": "Deploying machine learning algorithms on real physical systems has motivated growing interest in physics-informed architectures, in which the structure of the learning algorithm is constrained to encode the physical laws",
    "push_date": "2026-11-18"
+  },
+  {
+   "url": "https://sirop.org/app/d7346783-0a5b-4c0e-b0e9-32798fb60c73",
+   "title": "Signal Temporal Logic for Environmental Flow Requirements at Reservoirs",
+   "date": "18.11.2026",
+   "desc": "Many studies have explored the potential to change reservoir operations to better support downstream aquatic life, but these studies implement overly simplistic environmental flow requirements such as time-invariant mini",
+   "push_date": "2026-11-19"
   }
  ],
  "error": null

@@ -1,8 +1,12 @@
 # ETH IfA 新增在招项目汇总
 
-共 28 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 29 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-11-19
+
+- [Signal Temporal Logic for Environmental Flow Requirements at Reservoirs](https://sirop.org/app/d7346783-0a5b-4c0e-b0e9-32798fb60c73)
 
 ## 2026-11-18
 

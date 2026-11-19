@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-18T12:54:42+01:00",
- "status": "NONE",
- "listed": 11,
+ "run_at": "2026-11-19T02:16:11+01:00",
+ "status": "NEW",
+ "listed": 12,
  "new": [
   {
    "url": "https://sirop.org/app/8b444cd7-447d-4db4-8a12-45ce6be0d4b3",
@@ -9,6 +9,13 @@
    "date": "17.11.2026",
    "desc": "We are looking for HiWi to support the development of a flight-intent quadruped robot for lunar surface mobility. Upcoming phases focus on building and iterating full-scale prototypes, advancing key subsystems, and integ",
    "push_date": "2026-11-18"
+  },
+  {
+   "url": "https://sirop.org/app/b5b28f92-2191-4b2d-8b6f-24633c38eca8",
+   "title": "Steady Head, Agile Body: Learning Active Head Stabilization for Legged Robots",
+   "date": "18.11.2026",
+   "desc": "Learn body-independent active head stabilization for Owl Mini, a compact pan-tilt stereo RGB-D head. Develop a reinforcement learning policy that keeps a commanded world-frame orientation or an external target in view wh",
+   "push_date": "2026-11-19"
   }
  ],
  "error": null
