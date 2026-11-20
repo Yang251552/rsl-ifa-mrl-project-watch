@@ -70,3 +70,5 @@
 {"ts": "2026-11-14T01:22:03+01:00", "event": "removed", "url": "https://sirop.org/app/d9252090-545c-4973-806b-69f731643c66", "title": "Reinforcement Learning for Controlled Sledding Legged Locomotion on Steep Terrain"}
 {"ts": "2026-11-17T13:03:29+01:00", "event": "new", "url": "https://sirop.org/app/8b444cd7-447d-4db4-8a12-45ce6be0d4b3", "title": "Hardware development, testing, and integration engineer", "date": "17.11.2026"}
 {"ts": "2026-11-19T02:16:11+01:00", "event": "new", "url": "https://sirop.org/app/b5b28f92-2191-4b2d-8b6f-24633c38eca8", "title": "Steady Head, Agile Body: Learning Active Head Stabilization for Legged Robots", "date": "18.11.2026"}
+{"ts": "2026-11-20T02:19:29+01:00", "event": "new", "url": "https://sirop.org/app/aaeada9b-73b0-4029-a348-8a10a6c1e3c5", "title": "Force-Reactive Locomanipulation", "date": "19.11.2026"}
+{"ts": "2026-11-20T02:19:29+01:00", "event": "new", "url": "https://sirop.org/app/bebebe97-e518-43ce-8493-b661f7ef7af2", "title": "Head in the Game: Active Perception for Humanoid Soccer Kicks", "date": "19.11.2026"}

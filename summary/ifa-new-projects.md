@@ -1,8 +1,13 @@
 # ETH IfA 新增在招项目汇总
 
-共 29 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 31 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-11-20
+
+- [Humanoid Soccer Skill Retargeting through Interaction Meshes](https://sirop.org/app/cfb003cd-4d90-430b-b6ea-f927574187c9)
+- [YOULA-OP: Youla Control to Solve Constrained Optimization Problems](https://sirop.org/app/57262bf8-83b9-4a5b-93e6-f140a4771b38)
 
 ## 2026-11-19
 

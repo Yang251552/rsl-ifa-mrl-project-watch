@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-19T12:52:29+01:00",
- "status": "NONE",
- "listed": 12,
+ "run_at": "2026-11-20T02:19:29+01:00",
+ "status": "NEW",
+ "listed": 14,
  "new": [
   {
    "url": "https://sirop.org/app/8b444cd7-447d-4db4-8a12-45ce6be0d4b3",
@@ -16,6 +16,20 @@
    "date": "18.11.2026",
    "desc": "Learn body-independent active head stabilization for Owl Mini, a compact pan-tilt stereo RGB-D head. Develop a reinforcement learning policy that keeps a commanded world-frame orientation or an external target in view wh",
    "push_date": "2026-11-19"
+  },
+  {
+   "url": "https://sirop.org/app/aaeada9b-73b0-4029-a348-8a10a6c1e3c5",
+   "title": "Force-Reactive Locomanipulation",
+   "date": "19.11.2026",
+   "desc": "Learning to perform high-force interactive manipulation on rough terrain using targeted exteroception",
+   "push_date": "2026-11-20"
+  },
+  {
+   "url": "https://sirop.org/app/bebebe97-e518-43ce-8493-b661f7ef7af2",
+   "title": "Head in the Game: Active Perception for Humanoid Soccer Kicks",
+   "date": "19.11.2026",
+   "desc": "Develop learned active perception for humanoid soccer with Owl Mini, a compact pan-tilt stereo RGB-D head on the G1. A reinforcement learning policy with memory decides when to look at the ball or a moving receiver, trac",
+   "push_date": "2026-11-20"
   }
  ],
  "error": null

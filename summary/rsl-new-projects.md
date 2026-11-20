@@ -1,8 +1,13 @@
 # ETH RSL 新增在招项目汇总
 
-共 33 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
+共 35 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://rsl.ethz.ch/education-students/student-projects0/available-projects.html
+
+## 2026-11-20
+
+- [Force-Reactive Locomanipulation](https://sirop.org/app/aaeada9b-73b0-4029-a348-8a10a6c1e3c5)
+- [Head in the Game: Active Perception for Humanoid Soccer Kicks](https://sirop.org/app/bebebe97-e518-43ce-8493-b661f7ef7af2)
 
 ## 2026-11-19
 

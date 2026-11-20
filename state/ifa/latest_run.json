@@ -1,15 +1,8 @@
 {
- "run_at": "2026-11-19T12:52:30+01:00",
- "status": "NONE",
- "listed": 18,
+ "run_at": "2026-11-20T02:19:30+01:00",
+ "status": "NEW",
+ "listed": 20,
  "new": [
-  {
-   "url": "https://sirop.org/app/69c69a9a-bf85-4f4a-a809-b721ee700769",
-   "title": "Cooperative Multi-Agent Reinforcement Learning for Heterogeneous Drone Fleets",
-   "date": "12.11.2026",
-   "desc": "Drone fleets are increasingly being deployed for commercial package delivery, with real-world applications involving heterogeneous teams of drones that differ in their dynamics and payload capacities. Multi-agent reinfor",
-   "push_date": "2026-11-13"
-  },
   {
    "url": "https://sirop.org/app/50e25988-7b8f-475b-af9b-388339fda030",
    "title": "Functional Incentives for Frequency Reserves: Self-Selection, Attribution, and Strategic Interaction",
@@ -37,6 +30,20 @@
    "date": "18.11.2026",
    "desc": "Many studies have explored the potential to change reservoir operations to better support downstream aquatic life, but these studies implement overly simplistic environmental flow requirements such as time-invariant mini",
    "push_date": "2026-11-19"
+  },
+  {
+   "url": "https://sirop.org/app/cfb003cd-4d90-430b-b6ea-f927574187c9",
+   "title": "Humanoid Soccer Skill Retargeting through Interaction Meshes",
+   "date": "19.11.2026",
+   "desc": "This project is in collaboration with the ETHZ Robocup NomadZ team towards the goals of producing natural, highly agile motions on humanoid hardware. Imitation Learning has been shown to be a powerful alternative to rewa",
+   "push_date": "2026-11-20"
+  },
+  {
+   "url": "https://sirop.org/app/57262bf8-83b9-4a5b-93e6-f140a4771b38",
+   "title": "YOULA-OP: Youla Control to Solve Constrained Optimization Problems",
+   "date": "19.11.2026",
+   "desc": "Optimization algorithms are feedback controllers, but which controller makes the best solver? This project investigates this question for constrained problems by building on the control-theoretic view in which the Lagran",
+   "push_date": "2026-11-20"
   }
  ],
  "error": null
