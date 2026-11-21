@@ -1,8 +1,13 @@
 # ETH IfA 新增在招项目汇总
 
-共 31 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 33 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-11-21
+
+- [Train, Certify, Repeat: Robot Policies that Provably Survive the Sim-to-Real Gap](https://sirop.org/app/41790be6-a4f8-4455-a2c2-8501397fe788)
+- [Retraction Modeling and Control of FFF Processes](https://sirop.org/app/48413918-602b-4e73-92e9-3f9f7f57e89f)
 
 ## 2026-11-20
 

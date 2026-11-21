@@ -1,15 +1,8 @@
 {
- "run_at": "2026-11-20T12:53:08+01:00",
- "status": "NONE",
- "listed": 20,
+ "run_at": "2026-11-21T01:50:46+01:00",
+ "status": "NEW",
+ "listed": 22,
  "new": [
-  {
-   "url": "https://sirop.org/app/50e25988-7b8f-475b-af9b-388339fda030",
-   "title": "Functional Incentives for Frequency Reserves: Self-Selection, Attribution, and Strategic Interaction",
-   "date": "13.11.2026",
-   "desc": "Frequency reserves are procured through markets that require firm capacity commitments, which keeps assets with uncertain availability, such as wind, solar and flexible demand, on the sidelines. Functional incentives off",
-   "push_date": "2026-11-14"
-  },
   {
    "url": "https://sirop.org/app/79cee45c-268f-451a-bfc6-2fc0eebc066b",
    "title": "Control-based Design of Robust Constrained Optimization Algorithms via Sliding Mode Control",
@@ -44,6 +37,20 @@
    "date": "19.11.2026",
    "desc": "Optimization algorithms are feedback controllers, but which controller makes the best solver? This project investigates this question for constrained problems by building on the control-theoretic view in which the Lagran",
    "push_date": "2026-11-20"
+  },
+  {
+   "url": "https://sirop.org/app/41790be6-a4f8-4455-a2c2-8501397fe788",
+   "title": "Train, Certify, Repeat: Robot Policies that Provably Survive the Sim-to-Real Gap",
+   "date": "20.11.2026",
+   "desc": "Reinforcement learning policies trained in simulation often fail on real robots, whose physical parameters (masses, motor strength, friction) are never known exactly. Domain randomization tries to cover this uncertainty ",
+   "push_date": "2026-11-21"
+  },
+  {
+   "url": "https://sirop.org/app/48413918-602b-4e73-92e9-3f9f7f57e89f",
+   "title": "Retraction Modeling and Control of FFF Processes",
+   "date": "20.11.2026",
+   "desc": "Fused Filament Fabrication (FFF), the most widespread form of 3D printing, has gained significant traction, yet precise control of material flow remains a challenge. Force-based sensing offers a promising route to such c",
+   "push_date": "2026-11-21"
   }
  ],
  "error": null
