@@ -1,8 +1,14 @@
 # ETH IfA 新增在招项目汇总
 
-共 33 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 36 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-11-23
+
+- [Accelerating Closed-Loop Energy System Design with Approximate MPC](https://sirop.org/app/985b2ca3-03a1-40b3-8136-c46d1e4fb830)
+- [Physics-consistent AI-driven optimization of wet-milling processes](https://sirop.org/app/fad82145-45ed-4d88-921e-b3f30938bfb0)
+- [On-Robot Translation of Natural Language into Temporal Logic](https://sirop.org/app/6764b535-bf8f-4913-b037-37fab92ae1d2)
 
 ## 2026-11-21
 

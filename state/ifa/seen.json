@@ -1,6 +1,9 @@
 {
- "updated": "2026-11-23T01:20:48+01:00",
+ "updated": "2026-11-23T14:09:54+01:00",
  "seen": {
+  "https://sirop.org/app/985b2ca3-03a1-40b3-8136-c46d1e4fb830": "Accelerating Closed-Loop Energy System Design with Approximate MPC",
+  "https://sirop.org/app/fad82145-45ed-4d88-921e-b3f30938bfb0": "Physics-consistent AI-driven optimization of wet-milling processes",
+  "https://sirop.org/app/6764b535-bf8f-4913-b037-37fab92ae1d2": "On-Robot Translation of Natural Language into Temporal Logic",
   "https://sirop.org/app/41790be6-a4f8-4455-a2c2-8501397fe788": "Train, Certify, Repeat: Robot Policies that Provably Survive the Sim-to-Real Gap",
   "https://sirop.org/app/48413918-602b-4e73-92e9-3f9f7f57e89f": "Retraction Modeling and Control of FFF Processes",
   "https://sirop.org/app/cfb003cd-4d90-430b-b6ea-f927574187c9": "Humanoid Soccer Skill Retargeting through Interaction Meshes",
