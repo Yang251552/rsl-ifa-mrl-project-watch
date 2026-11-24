@@ -1,6 +1,6 @@
 {
- "run_at": "2026-11-23T14:09:54+01:00",
- "status": "NONE",
+ "run_at": "2026-11-24T05:19:28+01:00",
+ "status": "NEW",
  "listed": 14,
  "new": [
   {
@@ -30,6 +30,13 @@
    "date": "19.11.2026",
    "desc": "Develop learned active perception for humanoid soccer with Owl Mini, a compact pan-tilt stereo RGB-D head on the G1. A reinforcement learning policy with memory decides when to look at the ball or a moving receiver, trac",
    "push_date": "2026-11-20"
+  },
+  {
+   "url": "https://sirop.org/app/e7096bf3-ae33-46c0-bdb5-349e9435d448",
+   "title": "Agentic Curricula for Dexterous Humanoid Locomanipulation",
+   "date": "23.11.2026",
+   "desc": "Data generation for dexterous humanoid loco-manipulation is the subject of ongoing research. This thesis builds on existing generators and focuses on the training process, in which a large language model (LLM) agent orch",
+   "push_date": "2026-11-24"
   }
  ],
  "error": null

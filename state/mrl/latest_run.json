@@ -1,6 +1,6 @@
 {
- "run_at": "2026-11-23T14:09:55+01:00",
- "status": "NONE",
+ "run_at": "2026-11-24T05:19:30+01:00",
+ "status": "NEW",
  "listed": 5,
  "new": [
   {
@@ -9,6 +9,13 @@
    "date": "18.11.2026",
    "desc": "Can we recover how a humanoid robot interacts with objects simply by watching a video? Such estimates could support both learning from internet and AI-generated videos and perceiving another robot’s actions and contacts ",
    "push_date": "2026-11-19"
+  },
+  {
+   "url": "https://sirop.org/app/e7096bf3-ae33-46c0-bdb5-349e9435d448",
+   "title": "Agentic Curricula for Dexterous Humanoid Locomanipulation",
+   "date": "23.11.2026",
+   "desc": "Data generation for dexterous humanoid loco-manipulation is the subject of ongoing research. This thesis builds on existing generators and focuses on the training process, in which a large language model (LLM) agent orch",
+   "push_date": "2026-11-24"
   }
  ],
  "error": null

@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-23T14:09:54+01:00",
+ "run_at": "2026-11-24T05:19:29+01:00",
  "status": "NEW",
- "listed": 25,
+ "listed": 31,
  "new": [
   {
    "url": "https://sirop.org/app/79cee45c-268f-451a-bfc6-2fc0eebc066b",
@@ -71,6 +71,48 @@
    "title": "On-Robot Translation of Natural Language into Temporal Logic",
    "date": "23.11.2026",
    "desc": "Robots can be given tasks as temporal logic formulas, such as LTL or STL, and controllers that provably carry out those tasks can then be computed automatically. Users, however, give instructions in natural language. Cur",
+   "push_date": "2026-11-24"
+  },
+  {
+   "url": "https://sirop.org/app/e3eebb5a-f2ae-49ce-b87a-ce02b1cf2c57",
+   "title": "Decentralized Stability Certificates and Control Realization for AI Data Centers",
+   "date": "23.11.2026",
+   "desc": "AI data centers are becoming gigawatt-scale, power-electronics-interfaced loads with fast, large and highly correlated power fluctuations, and they have already been involved in several grid incidents. This project takes",
+   "push_date": "2026-11-24"
+  },
+  {
+   "url": "https://sirop.org/app/4f3b66c8-7aea-49c0-9bb0-b4ecc054695f",
+   "title": "Discover What’s Missing: Mining Environment Assumptions for Robot Manipulation",
+   "date": "23.11.2026",
+   "desc": "Robots can learn to perform surprisingly complex tasks from camera images and language instructions, but a learned policy does not necessarily tell us when it will succeed and when it will fail. Changes in the environmen",
+   "push_date": "2026-11-24"
+  },
+  {
+   "url": "https://sirop.org/app/401b59c5-133c-47e4-97b9-091ad8709f2e",
+   "title": "Learning Hard Safety Constraints from Human Motion Data",
+   "date": "23.11.2026",
+   "desc": "Today’s social-navigation model predictive control (MPC) handles personal space with one soft penalty, whose weight has to be tuned by hand. This project would separate comfortable from necessary navigation distances usi",
+   "push_date": "2026-11-24"
+  },
+  {
+   "url": "https://sirop.org/app/bba07ad3-2218-4ee4-a8c4-d3cf17061964",
+   "title": "Integrated-FEA Path Planning for Non-Planar 3D Printing",
+   "date": "23.11.2026",
+   "desc": "Deposited 3D-printed material is anisotropic, and correct alignment of the printing direction with the internal stress is crucial for good mechanical performance @guidetti2025swarm. Yet conventional path-planning approac",
+   "push_date": "2026-11-24"
+  },
+  {
+   "url": "https://sirop.org/app/a6463803-79c4-408b-96d0-acda0c3b4b9c",
+   "title": "Optimal Placement of Grid-Forming Converters for Grid Strength Enhancement",
+   "date": "23.11.2026",
+   "desc": "As synchronous generators are displaced by grid-following (GFL) inverter-based resources, power systems become weaker and stability issues appear more often. Grid-forming (GFM) converters can restore grid strength, but w",
+   "push_date": "2026-11-24"
+  },
+  {
+   "url": "https://sirop.org/app/c7b69b2b-7ca5-4d1c-a3ae-03bbeb00effb",
+   "title": "In Situ Machine Learning Based Anomaly Detection and Quality Prediction in Robotic 3D Printing",
+   "date": "23.11.2026",
+   "desc": "Can a 3D printer recognize when something goes wrong? In extrusion-based additive manufacturing, variations in material flow, temperature, or motion can introduce defects that compromise the finished part. Detecting thes",
    "push_date": "2026-11-24"
   }
  ],

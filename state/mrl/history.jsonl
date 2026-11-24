@@ -19,3 +19,5 @@
 {"ts": "2026-11-12T12:28:12+01:00", "event": "removed", "url": "https://sirop.org/app/f910e229-e693-406d-a2a7-110ff432a50f", "title": "Versatile, Robust and Simulatable Multi-Robot SLAM"}
 {"ts": "2026-11-18T12:54:43+01:00", "event": "new", "url": "https://sirop.org/app/15094180-206b-4114-a289-3ed7fb98289c", "title": "Learning Humanoid Object Interaction from Video", "date": "18.11.2026"}
 {"ts": "2026-11-19T02:16:13+01:00", "event": "removed", "url": "https://sirop.org/app/5961577a-f47c-40bf-8a31-a38749b62a97", "title": "External Thesis: Tactile-Aware Reinforcement Learning for Contact-Rich Manipulation"}
+{"ts": "2026-11-24T05:19:30+01:00", "event": "removed", "url": "https://sirop.org/app/9d6e42e6-f075-449f-b490-747f5e91fc67", "title": "Automatic Data Generation for Dexterous Humanoid Loco-Manipulation"}
+{"ts": "2026-11-24T05:19:30+01:00", "event": "new", "url": "https://sirop.org/app/e7096bf3-ae33-46c0-bdb5-349e9435d448", "title": "Agentic Curricula for Dexterous Humanoid Locomanipulation", "date": "23.11.2026"}

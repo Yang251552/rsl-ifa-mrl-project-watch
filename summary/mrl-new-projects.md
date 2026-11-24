@@ -1,8 +1,12 @@
 # ETH MRL 新增在招项目汇总
 
-共 13 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/mrl/history.jsonl` 重新生成，请勿手改。
+共 14 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/mrl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://mrl.ethz.ch/education/student-projects.html
+
+## 2026-11-24
+
+- [Agentic Curricula for Dexterous Humanoid Locomanipulation](https://sirop.org/app/e7096bf3-ae33-46c0-bdb5-349e9435d448)
 
 ## 2026-11-18
 

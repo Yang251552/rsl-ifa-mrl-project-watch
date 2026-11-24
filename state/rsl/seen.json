@@ -1,6 +1,7 @@
 {
- "updated": "2026-11-23T14:09:54+01:00",
+ "updated": "2026-11-24T05:19:28+01:00",
  "seen": {
+  "https://sirop.org/app/e7096bf3-ae33-46c0-bdb5-349e9435d448": "Agentic Curricula for Dexterous Humanoid Locomanipulation",
   "https://sirop.org/app/aaeada9b-73b0-4029-a348-8a10a6c1e3c5": "Force-Reactive Locomanipulation",
   "https://sirop.org/app/bebebe97-e518-43ce-8493-b661f7ef7af2": "Head in the Game: Active Perception for Humanoid Soccer Kicks",
   "https://sirop.org/app/b5b28f92-2191-4b2d-8b6f-24633c38eca8": "Steady Head, Agile Body: Learning Active Head Stabilization for Legged Robots",
@@ -11,7 +12,6 @@
   "https://sirop.org/app/5a444895-0156-410b-9691-c486c2ea1380": "Agentic Mapping",
   "https://sirop.org/app/bcfdc55b-485d-4ede-968b-a7515b331d60": "Embodied, Agentic AI",
   "https://sirop.org/app/7df94e90-acb5-4877-a72f-41b469481bda": "Learning Leg-Based Terrain Interaction Across Gravity Environments for quadrupeds using RL for lunar exploration",
-  "https://sirop.org/app/9d6e42e6-f075-449f-b490-747f5e91fc67": "Automatic Data Generation for Dexterous Humanoid Loco-Manipulation",
   "https://sirop.org/app/a8894ce2-f1bc-440c-b1d6-e353a485ba6b": "Robotic Characters at Disney Research",
   "https://sirop.org/app/09e4302c-2b09-4174-b0ff-2891e8d8755b": "Dynamics and Learning-Based Control of Parallel Mechanisms for LEO Applications",
   "https://sirop.org/app/3d153a31-21c4-473c-a62e-ff7a8a6ec2e3": "Towards ubiquitous intelligent humanoid systems"

@@ -1,8 +1,17 @@
 # ETH IfA 新增在招项目汇总
 
-共 36 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 42 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-11-24
+
+- [Decentralized Stability Certificates and Control Realization for AI Data Centers](https://sirop.org/app/e3eebb5a-f2ae-49ce-b87a-ce02b1cf2c57)
+- [Discover What’s Missing: Mining Environment Assumptions for Robot Manipulation](https://sirop.org/app/4f3b66c8-7aea-49c0-9bb0-b4ecc054695f)
+- [Learning Hard Safety Constraints from Human Motion Data](https://sirop.org/app/401b59c5-133c-47e4-97b9-091ad8709f2e)
+- [Integrated-FEA Path Planning for Non-Planar 3D Printing](https://sirop.org/app/bba07ad3-2218-4ee4-a8c4-d3cf17061964)
+- [Optimal Placement of Grid-Forming Converters for Grid Strength Enhancement](https://sirop.org/app/a6463803-79c4-408b-96d0-acda0c3b4b9c)
+- [In Situ Machine Learning Based Anomaly Detection and Quality Prediction in Robotic 3D Printing](https://sirop.org/app/c7b69b2b-7ca5-4d1c-a3ae-03bbeb00effb)
 
 ## 2026-11-23
 

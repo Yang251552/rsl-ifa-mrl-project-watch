@@ -72,3 +72,5 @@
 {"ts": "2026-11-19T02:16:11+01:00", "event": "new", "url": "https://sirop.org/app/b5b28f92-2191-4b2d-8b6f-24633c38eca8", "title": "Steady Head, Agile Body: Learning Active Head Stabilization for Legged Robots", "date": "18.11.2026"}
 {"ts": "2026-11-20T02:19:29+01:00", "event": "new", "url": "https://sirop.org/app/aaeada9b-73b0-4029-a348-8a10a6c1e3c5", "title": "Force-Reactive Locomanipulation", "date": "19.11.2026"}
 {"ts": "2026-11-20T02:19:29+01:00", "event": "new", "url": "https://sirop.org/app/bebebe97-e518-43ce-8493-b661f7ef7af2", "title": "Head in the Game: Active Perception for Humanoid Soccer Kicks", "date": "19.11.2026"}
+{"ts": "2026-11-24T05:19:28+01:00", "event": "removed", "url": "https://sirop.org/app/9d6e42e6-f075-449f-b490-747f5e91fc67", "title": "Automatic Data Generation for Dexterous Humanoid Loco-Manipulation"}
+{"ts": "2026-11-24T05:19:28+01:00", "event": "new", "url": "https://sirop.org/app/e7096bf3-ae33-46c0-bdb5-349e9435d448", "title": "Agentic Curricula for Dexterous Humanoid Locomanipulation", "date": "23.11.2026"}
