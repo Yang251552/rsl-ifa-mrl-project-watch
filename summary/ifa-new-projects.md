@@ -1,8 +1,16 @@
 # ETH IfA 新增在招项目汇总
 
-共 42 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 47 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-11-25
+
+- [Learning Storage Functions for Power System Stability](https://sirop.org/app/3ccb4001-cfac-4186-83f3-18611422898c)
+- [Decision Support in Railway Timetable Optimization](https://sirop.org/app/e09c7847-4d4f-4dd4-b4e1-9dd691f474be)
+- [Algorithmic Search for Universal Decentralized Stability Certificates of Converter-Dominated Grids](https://sirop.org/app/3e4dbe80-cf88-450a-a4d7-217a67b5c901)
+- [Millimetre Ground Truth for a Snooker-Playing Robot](https://sirop.org/app/cbd3872d-138f-4971-91e6-2fdd832f7244)
+- [Data Collection for Imitation Learning in Robotics](https://sirop.org/app/99383b8c-18c2-4925-a27f-5919d6a284a2)
 
 ## 2026-11-24
 

@@ -1,15 +1,8 @@
 {
- "run_at": "2026-11-24T05:19:28+01:00",
+ "run_at": "2026-11-25T04:06:34+01:00",
  "status": "NEW",
- "listed": 14,
+ "listed": 15,
  "new": [
-  {
-   "url": "https://sirop.org/app/8b444cd7-447d-4db4-8a12-45ce6be0d4b3",
-   "title": "Hardware development, testing, and integration engineer",
-   "date": "17.11.2026",
-   "desc": "We are looking for HiWi to support the development of a flight-intent quadruped robot for lunar surface mobility. Upcoming phases focus on building and iterating full-scale prototypes, advancing key subsystems, and integ",
-   "push_date": "2026-11-18"
-  },
   {
    "url": "https://sirop.org/app/b5b28f92-2191-4b2d-8b6f-24633c38eca8",
    "title": "Steady Head, Agile Body: Learning Active Head Stabilization for Legged Robots",
@@ -37,6 +30,13 @@
    "date": "23.11.2026",
    "desc": "Data generation for dexterous humanoid loco-manipulation is the subject of ongoing research. This thesis builds on existing generators and focuses on the training process, in which a large language model (LLM) agent orch",
    "push_date": "2026-11-24"
+  },
+  {
+   "url": "https://sirop.org/app/207edd45-e477-4d89-962e-03fe75a72af4",
+   "title": "Learning to Probe Footholds for Humanoid Ladder Climbing",
+   "date": "24.11.2026",
+   "desc": "This thesis will use learning from demonstration and reinforcement learning to develop a humanoid ladder-climbing policy that probes for support during ascent and descent when the next rung or the ground is out of view. ",
+   "push_date": "2026-11-25"
   }
  ],
  "error": null

@@ -1,6 +1,11 @@
 {
- "updated": "2026-11-24T05:19:29+01:00",
+ "updated": "2026-11-25T04:06:35+01:00",
  "seen": {
+  "https://sirop.org/app/3ccb4001-cfac-4186-83f3-18611422898c": "Learning Storage Functions for Power System Stability",
+  "https://sirop.org/app/e09c7847-4d4f-4dd4-b4e1-9dd691f474be": "Decision Support in Railway Timetable Optimization",
+  "https://sirop.org/app/3e4dbe80-cf88-450a-a4d7-217a67b5c901": "Algorithmic Search for Universal Decentralized Stability Certificates of Converter-Dominated Grids",
+  "https://sirop.org/app/cbd3872d-138f-4971-91e6-2fdd832f7244": "Millimetre Ground Truth for a Snooker-Playing Robot",
+  "https://sirop.org/app/99383b8c-18c2-4925-a27f-5919d6a284a2": "Data Collection for Imitation Learning in Robotics",
   "https://sirop.org/app/985b2ca3-03a1-40b3-8136-c46d1e4fb830": "Accelerating Closed-Loop Energy System Design with Approximate MPC",
   "https://sirop.org/app/e3eebb5a-f2ae-49ce-b87a-ce02b1cf2c57": "Decentralized Stability Certificates and Control Realization for AI Data Centers",
   "https://sirop.org/app/4f3b66c8-7aea-49c0-9bb0-b4ecc054695f": "Discover What’s Missing: Mining Environment Assumptions for Robot Manipulation",

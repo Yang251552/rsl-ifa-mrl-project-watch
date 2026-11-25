@@ -1,8 +1,12 @@
 # ETH MRL 新增在招项目汇总
 
-共 14 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/mrl/history.jsonl` 重新生成，请勿手改。
+共 15 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/mrl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://mrl.ethz.ch/education/student-projects.html
+
+## 2026-11-25
+
+- [Learning to Probe Footholds for Humanoid Ladder Climbing](https://sirop.org/app/207edd45-e477-4d89-962e-03fe75a72af4)
 
 ## 2026-11-24
 

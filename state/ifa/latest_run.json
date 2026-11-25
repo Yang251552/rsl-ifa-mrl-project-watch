@@ -1,22 +1,8 @@
 {
- "run_at": "2026-11-24T05:19:29+01:00",
+ "run_at": "2026-11-25T04:06:35+01:00",
  "status": "NEW",
- "listed": 31,
+ "listed": 36,
  "new": [
-  {
-   "url": "https://sirop.org/app/79cee45c-268f-451a-bfc6-2fc0eebc066b",
-   "title": "Control-based Design of Robust Constrained Optimization Algorithms via Sliding Mode Control",
-   "date": "17.11.2026",
-   "desc": "Sliding mode control (SMC) is built to reject uncertainty, but does this robustness carry over to optimization solvers designed via SMC? This project investigates this question building on a recent line of work that cast",
-   "push_date": "2026-11-18"
-  },
-  {
-   "url": "https://sirop.org/app/c340194c-bcba-4585-be8d-b00ddb35ee86",
-   "title": "Control Oriented Meta-Learning with Embedded Priors.",
-   "date": "17.11.2026",
-   "desc": "Deploying machine learning algorithms on real physical systems has motivated growing interest in physics-informed architectures, in which the structure of the learning algorithm is constrained to encode the physical laws",
-   "push_date": "2026-11-18"
-  },
   {
    "url": "https://sirop.org/app/d7346783-0a5b-4c0e-b0e9-32798fb60c73",
    "title": "Signal Temporal Logic for Environmental Flow Requirements at Reservoirs",
@@ -114,6 +100,41 @@
    "date": "23.11.2026",
    "desc": "Can a 3D printer recognize when something goes wrong? In extrusion-based additive manufacturing, variations in material flow, temperature, or motion can introduce defects that compromise the finished part. Detecting thes",
    "push_date": "2026-11-24"
+  },
+  {
+   "url": "https://sirop.org/app/3ccb4001-cfac-4186-83f3-18611422898c",
+   "title": "Learning Storage Functions for Power System Stability",
+   "date": "24.11.2026",
+   "desc": "This master’s project explores how storage functions learned from data can certify the stability of nonlinear power systems, including cases where component models are uncertain or available only as black-box simulators.",
+   "push_date": "2026-11-25"
+  },
+  {
+   "url": "https://sirop.org/app/e09c7847-4d4f-4dd4-b4e1-9dd691f474be",
+   "title": "Decision Support in Railway Timetable Optimization",
+   "date": "24.11.2026",
+   "desc": "In operational railway timetabling, planners adapt existing schedules in response to changed operating conditions, such as track closures, temporary speed restrictions, or altered service requirements. These timetable ad",
+   "push_date": "2026-11-25"
+  },
+  {
+   "url": "https://sirop.org/app/3e4dbe80-cf88-450a-a4d7-217a67b5c901",
+   "title": "Algorithmic Search for Universal Decentralized Stability Certificates of Converter-Dominated Grids",
+   "date": "24.11.2026",
+   "desc": "Future power grids will consist of thousands of converters from different vendors, and the number of possible grid configurations is far too large to check for stability by simulation. Decentralized certificates avoid th",
+   "push_date": "2026-11-25"
+  },
+  {
+   "url": "https://sirop.org/app/cbd3872d-138f-4971-91e6-2fdd832f7244",
+   "title": "Millimetre Ground Truth for a Snooker-Playing Robot",
+   "date": "24.11.2026",
+   "desc": "SnookerBot, our snooker-playing mobile robot, plans its shots with a GPU ball simulator and locates the balls with an on-board stereo camera. Both need an independent reference that is far more accurate. In this bachelor",
+   "push_date": "2026-11-25"
+  },
+  {
+   "url": "https://sirop.org/app/99383b8c-18c2-4925-a27f-5919d6a284a2",
+   "title": "Data Collection for Imitation Learning in Robotics",
+   "date": "24.11.2026",
+   "desc": "Imitation learning enables robots to learn manipulation tasks from human demonstrations, but the quality of these demonstrations can strongly affect policy performance. This Master’s thesis will investigate how teleopera",
+   "push_date": "2026-11-25"
   }
  ],
  "error": null
