@@ -1,15 +1,8 @@
 {
- "run_at": "2026-11-25T14:10:06+01:00",
+ "run_at": "2026-11-26T03:16:07+01:00",
  "status": "NONE",
  "listed": 15,
  "new": [
-  {
-   "url": "https://sirop.org/app/b5b28f92-2191-4b2d-8b6f-24633c38eca8",
-   "title": "Steady Head, Agile Body: Learning Active Head Stabilization for Legged Robots",
-   "date": "18.11.2026",
-   "desc": "Learn body-independent active head stabilization for Owl Mini, a compact pan-tilt stereo RGB-D head. Develop a reinforcement learning policy that keeps a commanded world-frame orientation or an external target in view wh",
-   "push_date": "2026-11-19"
-  },
   {
    "url": "https://sirop.org/app/aaeada9b-73b0-4029-a348-8a10a6c1e3c5",
    "title": "Force-Reactive Locomanipulation",

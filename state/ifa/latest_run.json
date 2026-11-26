@@ -1,15 +1,8 @@
 {
- "run_at": "2026-11-25T14:10:07+01:00",
- "status": "NONE",
- "listed": 36,
+ "run_at": "2026-11-26T03:16:08+01:00",
+ "status": "NEW",
+ "listed": 37,
  "new": [
-  {
-   "url": "https://sirop.org/app/d7346783-0a5b-4c0e-b0e9-32798fb60c73",
-   "title": "Signal Temporal Logic for Environmental Flow Requirements at Reservoirs",
-   "date": "18.11.2026",
-   "desc": "Many studies have explored the potential to change reservoir operations to better support downstream aquatic life, but these studies implement overly simplistic environmental flow requirements such as time-invariant mini",
-   "push_date": "2026-11-19"
-  },
   {
    "url": "https://sirop.org/app/cfb003cd-4d90-430b-b6ea-f927574187c9",
    "title": "Humanoid Soccer Skill Retargeting through Interaction Meshes",
@@ -135,6 +128,13 @@
    "date": "24.11.2026",
    "desc": "Imitation learning enables robots to learn manipulation tasks from human demonstrations, but the quality of these demonstrations can strongly affect policy performance. This Master’s thesis will investigate how teleopera",
    "push_date": "2026-11-25"
+  },
+  {
+   "url": "https://sirop.org/app/ab476f30-5b8a-4413-b298-6e67f3f064e9",
+   "title": "The \"Give-and-Take\" in Recommender Systems: A Karma Economy for Fair Visibility Allocation",
+   "date": "25.11.2026",
+   "desc": "On platforms such as YouTube and Spotify, creators publish contents hoping to reach an audience. Greater exposure can help them attract followers, earn revenue, and secure collaborations, turning creative work into a liv",
+   "push_date": "2026-11-26"
   }
  ],
  "error": null

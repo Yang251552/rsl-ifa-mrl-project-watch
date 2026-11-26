@@ -1,15 +1,8 @@
 {
- "run_at": "2026-11-25T14:10:08+01:00",
+ "run_at": "2026-11-26T03:16:09+01:00",
  "status": "NONE",
  "listed": 6,
  "new": [
-  {
-   "url": "https://sirop.org/app/15094180-206b-4114-a289-3ed7fb98289c",
-   "title": "Learning Humanoid Object Interaction from Video",
-   "date": "18.11.2026",
-   "desc": "Can we recover how a humanoid robot interacts with objects simply by watching a video? Such estimates could support both learning from internet and AI-generated videos and perceiving another robot’s actions and contacts ",
-   "push_date": "2026-11-19"
-  },
   {
    "url": "https://sirop.org/app/e7096bf3-ae33-46c0-bdb5-349e9435d448",
    "title": "Agentic Curricula for Dexterous Humanoid Locomanipulation",

@@ -1,8 +1,12 @@
 # ETH IfA 新增在招项目汇总
 
-共 47 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
+共 48 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/ifa/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://control.ee.ethz.ch/education/sa-ma-projects.html
+
+## 2026-11-26
+
+- [The "Give-and-Take" in Recommender Systems: A Karma Economy for Fair Visibility Allocation](https://sirop.org/app/ab476f30-5b8a-4413-b298-6e67f3f064e9)
 
 ## 2026-11-25
 
