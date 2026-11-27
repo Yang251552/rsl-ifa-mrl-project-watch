@@ -1,7 +1,7 @@
 {
- "run_at": "2026-11-27T03:16:25+01:00",
+ "run_at": "2026-11-27T13:43:27+01:00",
  "status": "NEW",
- "listed": 18,
+ "listed": 19,
  "new": [
   {
    "url": "https://sirop.org/app/e7096bf3-ae33-46c0-bdb5-349e9435d448",
@@ -51,6 +51,13 @@
    "date": "26.11.2026",
    "desc": "Design, analyze, and prototype a tripod-based parallel ankle mechanism with two to four degrees of freedom for quadrupedal or humanoid robots. Through mechanism synthesis, kinematic and load analysis, and actuator select",
    "push_date": "2026-11-27"
+  },
+  {
+   "url": "https://sirop.org/app/1f6ace63-f92d-48fd-b4cc-250a94316f00",
+   "title": "Learning to Ski: Reinforcement Learning for Humanoid Skiing with Poles",
+   "date": "27.11.2026",
+   "desc": "Teaching a humanoid robot to ski on flat and gently rising snow, with poles",
+   "push_date": "2026-11-28"
   }
  ],
  "error": null
