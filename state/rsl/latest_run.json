@@ -1,22 +1,8 @@
 {
- "run_at": "2026-11-26T13:50:28+01:00",
- "status": "NONE",
- "listed": 15,
+ "run_at": "2026-11-27T03:16:25+01:00",
+ "status": "NEW",
+ "listed": 18,
  "new": [
-  {
-   "url": "https://sirop.org/app/aaeada9b-73b0-4029-a348-8a10a6c1e3c5",
-   "title": "Force-Reactive Locomanipulation",
-   "date": "19.11.2026",
-   "desc": "Learning to perform high-force interactive manipulation on rough terrain using targeted exteroception",
-   "push_date": "2026-11-20"
-  },
-  {
-   "url": "https://sirop.org/app/bebebe97-e518-43ce-8493-b661f7ef7af2",
-   "title": "Head in the Game: Active Perception for Humanoid Soccer Kicks",
-   "date": "19.11.2026",
-   "desc": "Develop learned active perception for humanoid soccer with Owl Mini, a compact pan-tilt stereo RGB-D head on the G1. A reinforcement learning policy with memory decides when to look at the ball or a moving receiver, trac",
-   "push_date": "2026-11-20"
-  },
   {
    "url": "https://sirop.org/app/e7096bf3-ae33-46c0-bdb5-349e9435d448",
    "title": "Agentic Curricula for Dexterous Humanoid Locomanipulation",
@@ -30,6 +16,41 @@
    "date": "24.11.2026",
    "desc": "This thesis will use learning from demonstration and reinforcement learning to develop a humanoid ladder-climbing policy that probes for support during ascent and descent when the next rung or the ground is out of view. ",
    "push_date": "2026-11-25"
+  },
+  {
+   "url": "https://sirop.org/app/ae4b8ec2-11ba-46c1-9e79-aeeccd717bdd",
+   "title": "Bi-manual Locomanipulation on EngineAI T800",
+   "date": "26.11.2026",
+   "desc": "This project aims to develop a force-aware loco-manipulation framework for the full-sized EngineAI T800 humanoid robot. Building on twist-command-based control and long-short history encoders for interaction force predic",
+   "push_date": "2026-11-27"
+  },
+  {
+   "url": "https://sirop.org/app/6bb47bf6-eb52-4fb4-a488-dcf0b581eef9",
+   "title": "Student Projects in Collaborative Transportation",
+   "date": "26.11.2026",
+   "desc": "We are looking for excellent, highly motivated and self-driven students to explore collaborative transportation: enabling teams of robots to carry shared payloads through cluttered environments.",
+   "push_date": "2026-11-27"
+  },
+  {
+   "url": "https://sirop.org/app/42e5b105-ce77-4299-8ebf-89eb5b1c46f9",
+   "title": "Proprioceptive Lunar Regolith Characterization through Legged Locomotion",
+   "date": "26.11.2026",
+   "desc": "This project turns legged locomotion into a scientific sensing modality for lunar exploration. Using proprioceptive signals (joint torques, joint positions, contact forces, slip) from an existing learned locomotion polic",
+   "push_date": "2026-11-27"
+  },
+  {
+   "url": "https://sirop.org/app/b1007e69-3a60-430b-a213-232fd0ba4df3",
+   "title": "Novel 6-DoF Parallel Docking Mechanism",
+   "date": "26.11.2026",
+   "desc": "Develop a benchtop prototype of a spacecraft docking mechanism based on a novel 6-DoF parallel mechanism with base-mounted actuators. Compared with the Stewart platforms used in today's active docking systems, the design",
+   "push_date": "2026-11-27"
+  },
+  {
+   "url": "https://sirop.org/app/312f81e8-d3cf-42f9-850e-52b95b6a1b29",
+   "title": "Tripod-Based Parallel Ankle Mechanism for Legged Robots",
+   "date": "26.11.2026",
+   "desc": "Design, analyze, and prototype a tripod-based parallel ankle mechanism with two to four degrees of freedom for quadrupedal or humanoid robots. Through mechanism synthesis, kinematic and load analysis, and actuator select",
+   "push_date": "2026-11-27"
   }
  ],
  "error": null

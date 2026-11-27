@@ -1,8 +1,16 @@
 # ETH RSL 新增在招项目汇总
 
-共 37 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
+共 42 个，按检出日期（瑞士时间）分组，新的在上。每次检查后由 GitHub Actions 从 `state/rsl/history.jsonl` 重新生成，请勿手改。
 
 当前在挂列表：https://rsl.ethz.ch/education-students/student-projects0/available-projects.html
+
+## 2026-11-27
+
+- [Bi-manual Locomanipulation on EngineAI T800](https://sirop.org/app/ae4b8ec2-11ba-46c1-9e79-aeeccd717bdd)
+- [Student Projects in Collaborative Transportation](https://sirop.org/app/6bb47bf6-eb52-4fb4-a488-dcf0b581eef9)
+- [Proprioceptive Lunar Regolith Characterization through Legged Locomotion](https://sirop.org/app/42e5b105-ce77-4299-8ebf-89eb5b1c46f9)
+- [Novel 6-DoF Parallel Docking Mechanism](https://sirop.org/app/b1007e69-3a60-430b-a213-232fd0ba4df3)
+- [Tripod-Based Parallel Ankle Mechanism for Legged Robots](https://sirop.org/app/312f81e8-d3cf-42f9-850e-52b95b6a1b29)
 
 ## 2026-11-25
 

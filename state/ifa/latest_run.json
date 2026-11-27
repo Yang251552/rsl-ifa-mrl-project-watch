@@ -1,22 +1,8 @@
 {
- "run_at": "2026-11-26T13:50:29+01:00",
+ "run_at": "2026-11-27T03:16:26+01:00",
  "status": "NONE",
  "listed": 37,
  "new": [
-  {
-   "url": "https://sirop.org/app/cfb003cd-4d90-430b-b6ea-f927574187c9",
-   "title": "Humanoid Soccer Skill Retargeting through Interaction Meshes",
-   "date": "19.11.2026",
-   "desc": "This project is in collaboration with the ETHZ Robocup NomadZ team towards the goals of producing natural, highly agile motions on humanoid hardware. Imitation Learning has been shown to be a powerful alternative to rewa",
-   "push_date": "2026-11-20"
-  },
-  {
-   "url": "https://sirop.org/app/57262bf8-83b9-4a5b-93e6-f140a4771b38",
-   "title": "YOULA-OP: Youla Control to Solve Constrained Optimization Problems",
-   "date": "19.11.2026",
-   "desc": "Optimization algorithms are feedback controllers, but which controller makes the best solver? This project investigates this question for constrained problems by building on the control-theoretic view in which the Lagran",
-   "push_date": "2026-11-20"
-  },
   {
    "url": "https://sirop.org/app/41790be6-a4f8-4455-a2c2-8501397fe788",
    "title": "Train, Certify, Repeat: Robot Policies that Provably Survive the Sim-to-Real Gap",

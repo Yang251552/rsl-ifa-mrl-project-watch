@@ -75,3 +75,10 @@
 {"ts": "2026-11-24T05:19:28+01:00", "event": "removed", "url": "https://sirop.org/app/9d6e42e6-f075-449f-b490-747f5e91fc67", "title": "Automatic Data Generation for Dexterous Humanoid Loco-Manipulation"}
 {"ts": "2026-11-24T05:19:28+01:00", "event": "new", "url": "https://sirop.org/app/e7096bf3-ae33-46c0-bdb5-349e9435d448", "title": "Agentic Curricula for Dexterous Humanoid Locomanipulation", "date": "23.11.2026"}
 {"ts": "2026-11-25T04:06:34+01:00", "event": "new", "url": "https://sirop.org/app/207edd45-e477-4d89-962e-03fe75a72af4", "title": "Learning to Probe Footholds for Humanoid Ladder Climbing", "date": "24.11.2026"}
+{"ts": "2026-11-27T03:16:25+01:00", "event": "removed", "url": "https://sirop.org/app/ad276101-ff5c-4de0-a35f-43bee98dfb03", "title": "Eyes on the Ball: Active Perception for Humanoid Catching on the Move"}
+{"ts": "2026-11-27T03:16:25+01:00", "event": "removed", "url": "https://sirop.org/app/eacc6aae-6dc0-4fd5-b691-4fa50ed0c556", "title": "Where to Zoom In: Information Frontiers for Functional Scene Understanding"}
+{"ts": "2026-11-27T03:16:25+01:00", "event": "new", "url": "https://sirop.org/app/ae4b8ec2-11ba-46c1-9e79-aeeccd717bdd", "title": "Bi-manual Locomanipulation on EngineAI T800", "date": "26.11.2026"}
+{"ts": "2026-11-27T03:16:25+01:00", "event": "new", "url": "https://sirop.org/app/6bb47bf6-eb52-4fb4-a488-dcf0b581eef9", "title": "Student Projects in Collaborative Transportation", "date": "26.11.2026"}
+{"ts": "2026-11-27T03:16:25+01:00", "event": "new", "url": "https://sirop.org/app/42e5b105-ce77-4299-8ebf-89eb5b1c46f9", "title": "Proprioceptive Lunar Regolith Characterization through Legged Locomotion", "date": "26.11.2026"}
+{"ts": "2026-11-27T03:16:25+01:00", "event": "new", "url": "https://sirop.org/app/b1007e69-3a60-430b-a213-232fd0ba4df3", "title": "Novel 6-DoF Parallel Docking Mechanism", "date": "26.11.2026"}
+{"ts": "2026-11-27T03:16:25+01:00", "event": "new", "url": "https://sirop.org/app/312f81e8-d3cf-42f9-850e-52b95b6a1b29", "title": "Tripod-Based Parallel Ankle Mechanism for Legged Robots", "date": "26.11.2026"}
