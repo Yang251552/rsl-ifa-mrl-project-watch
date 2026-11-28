@@ -1,22 +1,8 @@
 {
- "run_at": "2026-11-27T13:43:28+01:00",
+ "run_at": "2026-11-28T03:01:50+01:00",
  "status": "NONE",
  "listed": 37,
  "new": [
-  {
-   "url": "https://sirop.org/app/41790be6-a4f8-4455-a2c2-8501397fe788",
-   "title": "Train, Certify, Repeat: Robot Policies that Provably Survive the Sim-to-Real Gap",
-   "date": "20.11.2026",
-   "desc": "Reinforcement learning policies trained in simulation often fail on real robots, whose physical parameters (masses, motor strength, friction) are never known exactly. Domain randomization tries to cover this uncertainty ",
-   "push_date": "2026-11-21"
-  },
-  {
-   "url": "https://sirop.org/app/48413918-602b-4e73-92e9-3f9f7f57e89f",
-   "title": "Retraction Modeling and Control of FFF Processes",
-   "date": "20.11.2026",
-   "desc": "Fused Filament Fabrication (FFF), the most widespread form of 3D printing, has gained significant traction, yet precise control of material flow remains a challenge. Force-based sensing offers a promising route to such c",
-   "push_date": "2026-11-21"
-  },
   {
    "url": "https://sirop.org/app/985b2ca3-03a1-40b3-8136-c46d1e4fb830",
    "title": "Accelerating Closed-Loop Energy System Design with Approximate MPC",
